@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\Utilisateur\.Rider2019.1\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Utilisateur\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_unity_stage.1907095877.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Utilisateur\Pictures\stage\Unity_stage\Unity_stage" t="IncludeRecursive">
+    <e p="C:\Users\Utilisateur\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_unity_stage.-1853170299.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Utilisateur\Documents\ESEO\I2\github_Stage\AnneSoloProject\Unity_stage" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
@@ -39,6 +39,10 @@
           <e p="Shaders" t="Include">
             <e p="Skybox-Procedural.shader" t="Include" />
           </e>
+        </e>
+        <e p="Script" t="Include">
+          <e p="ScriptFallDown.cs" t="Include" />
+          <e p="ScriptSpawn.cs" t="Include" />
         </e>
         <e p="Standard Assets" t="Include">
           <e p="2D" t="Include">

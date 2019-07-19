@@ -9,8 +9,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="870">
@@ -54,49 +54,70 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Script/ScriptSpawn.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1548516393000" expanded="true" signature="0:239" ph="/* Script Spawn Player pour Udemy ... */" />
+                <marker date="1548516393000" expanded="false" signature="247:285" ph="..." />
+                <marker date="1548516393000" expanded="true" signature="328:762" ph="{...}" />
+                <marker date="1548516393000" expanded="true" signature="375:758" ph="{...}" />
+                <marker date="1548516393000" expanded="true" signature="470:754" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Script/ScriptFallDown.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+              <folding>
+                <marker date="1563539098832" expanded="true" signature="6:44" ph="..." />
+                <marker date="1563539098832" expanded="true" signature="95:1381" ph="{...}" />
+                <marker date="1563539098832" expanded="true" signature="386:579" ph="{...}" />
+                <marker date="1563539098832" expanded="true" signature="622:1203" ph="{...}" />
+                <marker date="1563539098832" expanded="true" signature="709:875" ph="{...}" />
+                <marker date="1563539098832" expanded="true" signature="965:1197" ph="{...}" />
+                <marker date="1563539098832" expanded="true" signature="1231:1371" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/ScriptFallDown.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/ScriptSpawn.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Readme.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/ScriptFallDown.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="100" />
-    <option name="y" value="20" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1975" />
+    <option name="y" value="58" />
     <option name="width" value="1400" />
     <option name="height" value="820" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="UnityExplorer" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="UnityExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <option name="show-hidden-items" value="false" />
-        <option name="show-project-names" value="true" />
-      </pane>
-      <pane id="FileSystemExplorer" />
-      <pane id="AssemblyExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="Discover.Launch.Via.Unity" value="true" />
@@ -143,11 +164,15 @@
       <option name="presentableId" value="Default" />
       <updated>1563436590365</updated>
       <workItem from="1563436613805" duration="2060000" />
+      <workItem from="1563529370303" duration="1056000" />
+      <workItem from="1563537963231" duration="923000" />
+      <workItem from="1563539010898" duration="87000" />
+      <workItem from="1563539335575" duration="720000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2060000" />
+    <option name="totallyTimeSpent" value="4846000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -159,20 +184,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="1975" y="58" width="1400" height="820" extended-state="0" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.15671162" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -180,12 +196,21 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Unity" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Unit Tests" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="15" side_tool="true" visible="true" weight="0.042313118" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
     </layout>
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -280,6 +305,35 @@
             <marker date="1520267343000" expanded="true" signature="9070:9539" ph="{...}" />
             <marker date="1520267343000" expanded="true" signature="9270:9322" ph="{...}" />
             <marker date="1520267343000" expanded="true" signature="9373:9425" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/ScriptSpawn.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1548516393000" expanded="true" signature="0:239" ph="/* Script Spawn Player pour Udemy ... */" />
+            <marker date="1548516393000" expanded="false" signature="247:285" ph="..." />
+            <marker date="1548516393000" expanded="true" signature="328:762" ph="{...}" />
+            <marker date="1548516393000" expanded="true" signature="375:758" ph="{...}" />
+            <marker date="1548516393000" expanded="true" signature="470:754" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/ScriptFallDown.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <marker date="1563539098832" expanded="true" signature="6:44" ph="..." />
+            <marker date="1563539098832" expanded="true" signature="95:1381" ph="{...}" />
+            <marker date="1563539098832" expanded="true" signature="386:579" ph="{...}" />
+            <marker date="1563539098832" expanded="true" signature="622:1203" ph="{...}" />
+            <marker date="1563539098832" expanded="true" signature="709:875" ph="{...}" />
+            <marker date="1563539098832" expanded="true" signature="965:1197" ph="{...}" />
+            <marker date="1563539098832" expanded="true" signature="1231:1371" ph="{...}" />
           </folding>
         </state>
       </provider>
