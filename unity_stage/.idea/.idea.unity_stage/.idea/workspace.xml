@@ -13,7 +13,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
+            <state relative-caret-position="-1485">
               <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
               <folding>
                 <marker date="1520267343000" expanded="false" signature="6:148" ph="..." />
@@ -72,16 +72,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Script/ScriptFallDown.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="454">
+              <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
               <folding>
-                <marker date="1563539098832" expanded="true" signature="6:44" ph="..." />
-                <marker date="1563539098832" expanded="true" signature="95:1381" ph="{...}" />
-                <marker date="1563539098832" expanded="true" signature="386:579" ph="{...}" />
-                <marker date="1563539098832" expanded="true" signature="622:1203" ph="{...}" />
-                <marker date="1563539098832" expanded="true" signature="709:875" ph="{...}" />
-                <marker date="1563539098832" expanded="true" signature="965:1197" ph="{...}" />
-                <marker date="1563539098832" expanded="true" signature="1231:1371" ph="{...}" />
+                <marker date="1563780165353" expanded="false" signature="6:44" ph="..." />
+                <marker date="1563780165353" expanded="true" signature="95:1381" ph="{...}" />
+                <marker date="1563780165353" expanded="true" signature="386:579" ph="{...}" />
+                <marker date="1563780165353" expanded="true" signature="622:1203" ph="{...}" />
+                <marker date="1563780165353" expanded="true" signature="709:875" ph="{...}" />
+                <marker date="1563780165353" expanded="true" signature="965:1197" ph="{...}" />
+                <marker date="1563780165353" expanded="true" signature="1231:1371" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -94,9 +94,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Script/ScriptFallDown.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/ScriptSpawn.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Readme.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -106,7 +106,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="1975" />
     <option name="y" value="58" />
     <option name="width" value="1400" />
@@ -168,11 +168,12 @@
       <workItem from="1563537963231" duration="923000" />
       <workItem from="1563539010898" duration="87000" />
       <workItem from="1563539335575" duration="720000" />
+      <workItem from="1563783779251" duration="1118000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4846000" />
+    <option name="totallyTimeSpent" value="5964000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -185,6 +186,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1975" y="58" width="1400" height="820" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.15671162" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -269,7 +271,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
+        <state relative-caret-position="-1485">
           <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
           <folding>
             <marker date="1520267343000" expanded="false" signature="6:148" ph="..." />
@@ -324,16 +326,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/ScriptFallDown.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="454">
+          <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
           <folding>
-            <marker date="1563539098832" expanded="true" signature="6:44" ph="..." />
-            <marker date="1563539098832" expanded="true" signature="95:1381" ph="{...}" />
-            <marker date="1563539098832" expanded="true" signature="386:579" ph="{...}" />
-            <marker date="1563539098832" expanded="true" signature="622:1203" ph="{...}" />
-            <marker date="1563539098832" expanded="true" signature="709:875" ph="{...}" />
-            <marker date="1563539098832" expanded="true" signature="965:1197" ph="{...}" />
-            <marker date="1563539098832" expanded="true" signature="1231:1371" ph="{...}" />
+            <marker date="1563780165353" expanded="false" signature="6:44" ph="..." />
+            <marker date="1563780165353" expanded="true" signature="95:1381" ph="{...}" />
+            <marker date="1563780165353" expanded="true" signature="386:579" ph="{...}" />
+            <marker date="1563780165353" expanded="true" signature="622:1203" ph="{...}" />
+            <marker date="1563780165353" expanded="true" signature="709:875" ph="{...}" />
+            <marker date="1563780165353" expanded="true" signature="965:1197" ph="{...}" />
+            <marker date="1563780165353" expanded="true" signature="1231:1371" ph="{...}" />
           </folding>
         </state>
       </provider>

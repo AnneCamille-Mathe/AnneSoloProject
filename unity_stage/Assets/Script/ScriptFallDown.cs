@@ -1,7 +1,7 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
-public class PlateformFallScript : MonoBehaviour {
+public class ScriptFallDown : MonoBehaviour {
 
     //Déclarations des Variables
 
