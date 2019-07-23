@@ -41,8 +41,10 @@
           </e>
         </e>
         <e p="Script" t="Include">
+          <e p="ProjectilScript.cs" t="Include" />
           <e p="ScriptFallDown.cs" t="Include" />
           <e p="ScriptSpawn.cs" t="Include" />
+          <e p="ShootScript.cs" t="Include" />
         </e>
         <e p="Standard Assets" t="Include">
           <e p="2D" t="Include">
