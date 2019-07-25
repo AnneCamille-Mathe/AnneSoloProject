@@ -7,8 +7,9 @@ public class ScriptRigidBodyFPS : MonoBehaviour
 {
     //Initialisation des variables
     public FixedJoystick MoveJoystick;
+    public FixedJoystick MoveCamera;
     public FixedButton JumpButton;
-    public FixedTouchField TouchField;
+    //public FixedTouchField TouchField;
         
     // Start is called before the first frame update
     void Start()
@@ -22,7 +23,6 @@ public class ScriptRigidBodyFPS : MonoBehaviour
         var fps = GetComponent<RigidbodyFirstPersonController>();
         fps.RunAxis = MoveJoystick.Direction;
         fps.JumpAxis = JumpButton.Pressed;
-        fps.mouseLook.LookAxis = TouchField.TouchDist;
-
+        fps.mouseLook.LookAxis = MoveCamera.Direction;
     }
 }

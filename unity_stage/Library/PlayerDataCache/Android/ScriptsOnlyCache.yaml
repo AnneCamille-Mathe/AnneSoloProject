@@ -7,9 +7,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - FixedButton
     - FixedJoystick
-    - FixedTouchField
     - ProjectilScript
-    - Readme
     - ScriptFallDown
     - ScriptRigidBodyFPS
     - ScriptSpawn
@@ -93,8 +91,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 9704}
     - Class: 114
       Script: {instanceID: 9912}
-    - Class: 114
-      Script: {instanceID: 9982}
     - Class: 114
       Script: {instanceID: 9984}
     - Class: 114
@@ -1140,7 +1136,7 @@ ScriptsOnlyBuild:
     className: CarAIControl
   - hash:
       serializedVersion: 2
-      Hash: e4ffd52512d0bcf6332bb0ab9a6ede57
+      Hash: 37a634e8b47b80fc2cfd03f3a54512eb
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ScriptRigidBodyFPS
