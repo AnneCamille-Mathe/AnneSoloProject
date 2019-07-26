@@ -7,7 +7,7 @@ using  UnityEngine.UI;
 public class Timer : MonoBehaviour
 {
     //Déclaration de variables
-    private float temps = 130;
+    private float temps = 50;
     public Text timerText;
     private int minutes;
     private int secondes;
@@ -25,16 +25,34 @@ public class Timer : MonoBehaviour
         
         if (this.temps >= 0)
         {
+            this.minutes = Mathf.FloorToInt(this.temps / 60f);
+            this.secondes = Mathf.RoundToInt(this.temps % 59f);
             this.temps -= Time.deltaTime;
+            if (this.secondes < 10)
+            {
+                this.timerText.text = (this.minutes + ":0" + this.secondes);  
+            }
+
+            else if (this.minutes < 10)
+            {
+                this.timerText.text = ("0" + this.minutes + ":" + this.secondes);  
+            }
+            else if (this.minutes < 10 && this.secondes < 10)
+            {
+                this.timerText.text = ("0" + this.minutes + ":0" + this.secondes);  
+            }
+            else
+            {
+                this.timerText.text = (this.minutes + ":" + this.secondes);
+            }
+            
         }
         else
         {
             this.timerText.text = ("TIME OVER");
         }
         
-        this.minutes = Mathf.FloorToInt(this.temps / 60f);
-        this.secondes = Mathf.RoundToInt(this.temps % 59f);
-        this.timerText.text = (this.minutes + ":" + this.secondes);
+        
   
         
         

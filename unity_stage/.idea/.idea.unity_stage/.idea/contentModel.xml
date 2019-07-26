@@ -21,6 +21,14 @@
             </e>
           </e>
         </e>
+        <e p="C&amp;C_Pack" t="Include">
+          <e p="Goblin_rouge" t="Include">
+            <e p="Readme.txt" t="Include" />
+            <e p="Script" t="Include">
+              <e p="Goblin_ro_ctrl.cs" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Joystick Pack" t="Include">
           <e p="Examples" t="Include">
             <e p="JoystickPlayerExample.cs" t="Include" />
@@ -66,6 +74,7 @@
         <e p="Script" t="Include">
           <e p="FixedButton.cs" t="Include" />
           <e p="FixedTouchField.cs" t="Include" />
+          <e p="GoblinScript.cs" t="Include" />
           <e p="LifeScript.cs" t="Include" />
           <e p="ProjectilScript.cs" t="Include" />
           <e p="ScriptFallDown.cs" t="Include" />
