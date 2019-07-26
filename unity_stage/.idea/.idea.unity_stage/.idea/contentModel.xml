@@ -76,6 +76,7 @@
           <e p="FixedTouchField.cs" t="Include" />
           <e p="GoblinScript.cs" t="Include" />
           <e p="LifeScript.cs" t="Include" />
+          <e p="MenuScript.cs" t="Include" />
           <e p="ProjectilScript.cs" t="Include" />
           <e p="ScriptFallDown.cs" t="Include" />
           <e p="ScriptSpawn.cs" t="Include" />

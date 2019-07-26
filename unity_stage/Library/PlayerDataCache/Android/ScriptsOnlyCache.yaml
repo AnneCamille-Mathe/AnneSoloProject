@@ -35,7 +35,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Scenes/SampleScene.unity:
+    Assets/Scenes/Level1.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -83,47 +83,47 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9492}
+      Script: {instanceID: 9488}
     - Class: 114
-      Script: {instanceID: 9592}
+      Script: {instanceID: 9586}
     - Class: 114
-      Script: {instanceID: 9660}
+      Script: {instanceID: 9616}
     - Class: 114
-      Script: {instanceID: 9666}
+      Script: {instanceID: 9656}
     - Class: 114
-      Script: {instanceID: 9672}
+      Script: {instanceID: 9662}
     - Class: 114
-      Script: {instanceID: 9680}
+      Script: {instanceID: 9668}
     - Class: 114
-      Script: {instanceID: 9716}
+      Script: {instanceID: 9676}
     - Class: 114
-      Script: {instanceID: 9718}
+      Script: {instanceID: 9712}
     - Class: 114
-      Script: {instanceID: 9926}
+      Script: {instanceID: 9714}
     - Class: 114
-      Script: {instanceID: 9998}
+      Script: {instanceID: 9922}
     - Class: 114
-      Script: {instanceID: 10006}
+      Script: {instanceID: 9994}
     - Class: 114
-      Script: {instanceID: 10114}
+      Script: {instanceID: 10002}
     - Class: 114
-      Script: {instanceID: 10418}
+      Script: {instanceID: 10110}
     - Class: 114
-      Script: {instanceID: 10632}
+      Script: {instanceID: 10410}
     - Class: 114
-      Script: {instanceID: 10842}
+      Script: {instanceID: 10624}
     - Class: 114
-      Script: {instanceID: 11176}
+      Script: {instanceID: 10736}
     - Class: 114
-      Script: {instanceID: 11262}
+      Script: {instanceID: 10836}
     - Class: 114
-      Script: {instanceID: 11950}
+      Script: {instanceID: 11168}
     - Class: 114
-      Script: {instanceID: 12108}
+      Script: {instanceID: 11252}
     - Class: 114
-      Script: {instanceID: 19538}
+      Script: {instanceID: 11936}
     - Class: 114
-      Script: {instanceID: 31062}
+      Script: {instanceID: 12094}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -285,6 +285,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PauseMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 09770c852d5034b29126e9932a7cc065
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GoblinScript
   - hash:
       serializedVersion: 2
       Hash: 718ef0ded913ba15da8a97ccf24793ce
@@ -1115,6 +1121,12 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAnimator
   - hash:
       serializedVersion: 2
+      Hash: c0ffe57c7302a0d9685d1ef9ad826133
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Goblin_ro_ctrl
+  - hash:
+      serializedVersion: 2
       Hash: 296fe27bf6a67ad114f808be4eaa08cc
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityStandardAssets.SceneUtils
@@ -1637,17 +1649,11 @@ ScriptsOnlyBuild:
     className: AutoMobileShaderSwitch
   - hash:
       serializedVersion: 2
-      Hash: c0ffe57c7302a0d9685d1ef9ad826133
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Goblin_ro_ctrl
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: GoblinScript
+    className: MenuScript
   platform: 13
   scenePathNames:
-  - Assets/Scenes/SampleScene.unity
+  - Assets/Scenes/Level1.unity
   playerPath: C:/Users/Utilisateur/Documents/ESEO/I2/github_Stage/AnneSoloProject/unity_stage/Builds/Android.apk

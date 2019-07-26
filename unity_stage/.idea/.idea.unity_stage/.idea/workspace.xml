@@ -11,19 +11,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Script/GoblinScript.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Script/MenuScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="240">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
               <folding>
-                <marker date="1564128366513" expanded="true" signature="6:92" ph="..." />
-                <marker date="1564128366513" expanded="true" signature="135:793" ph="{...}" />
-                <marker date="1564128366513" expanded="true" signature="291:312" ph="{...}" />
-                <marker date="1564128366513" expanded="true" signature="370:391" ph="{...}" />
-                <marker date="1564128366513" expanded="true" signature="440:699" ph="{...}" />
-                <marker date="1564128366513" expanded="true" signature="492:617" ph="{...}" />
-                <marker date="1564128366513" expanded="true" signature="630:693" ph="{...}" />
-                <marker date="1564128366513" expanded="true" signature="727:791" ph="{...}" />
+                <marker date="1564143740389" expanded="true" signature="6:114" ph="..." />
+                <marker date="1564143740389" expanded="true" signature="155:362" ph="{...}" />
+                <marker date="1564143740389" expanded="true" signature="215:255" ph="{...}" />
+                <marker date="1564143740389" expanded="true" signature="313:360" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -32,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Script/ScriptFallDown.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="31" />
+            <state relative-caret-position="285">
+              <caret line="25" column="39" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="39" />
               <folding>
                 <marker date="1563785446802" expanded="false" signature="6:44" ph="..." />
                 <marker date="1563785446802" expanded="true" signature="90:1376" ph="{...}" />
@@ -84,6 +80,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Script/MenuScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/ScriptFallDown.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/FixedTouchField.cs" root0="FORCE_HIGHLIGHTING" />
@@ -115,10 +112,11 @@
         <option value="$PROJECT_DIR$/Assets/Script/Timer.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/ScriptFallDown.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/GoblinScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/MenuScript.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="y" value="29" />
     <option name="width" value="1616" />
@@ -184,12 +182,12 @@
       <workItem from="1563783779251" duration="1843000" />
       <workItem from="1563884001383" duration="4796000" />
       <workItem from="1563954952136" duration="10918000" />
-      <workItem from="1564047046663" duration="10253000" />
+      <workItem from="1564047046663" duration="12422000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32656000" />
+    <option name="totallyTimeSpent" value="34825000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -527,8 +525,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/ScriptFallDown.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="31" />
+        <state relative-caret-position="285">
+          <caret line="25" column="39" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="39" />
           <folding>
             <marker date="1563785446802" expanded="false" signature="6:44" ph="..." />
             <marker date="1563785446802" expanded="true" signature="90:1376" ph="{...}" />
@@ -543,17 +541,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/GoblinScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="484">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
           <folding>
-            <marker date="1564128366513" expanded="true" signature="6:92" ph="..." />
-            <marker date="1564128366513" expanded="true" signature="135:793" ph="{...}" />
-            <marker date="1564128366513" expanded="true" signature="291:312" ph="{...}" />
-            <marker date="1564128366513" expanded="true" signature="370:391" ph="{...}" />
-            <marker date="1564128366513" expanded="true" signature="440:699" ph="{...}" />
-            <marker date="1564128366513" expanded="true" signature="492:617" ph="{...}" />
-            <marker date="1564128366513" expanded="true" signature="630:693" ph="{...}" />
-            <marker date="1564128366513" expanded="true" signature="727:791" ph="{...}" />
+            <marker date="1564132106937" expanded="true" signature="6:92" ph="..." />
+            <marker date="1564132106937" expanded="true" signature="135:852" ph="{...}" />
+            <marker date="1564132106937" expanded="true" signature="290:311" ph="{...}" />
+            <marker date="1564132106937" expanded="true" signature="369:390" ph="{...}" />
+            <marker date="1564132106937" expanded="true" signature="439:716" ph="{...}" />
+            <marker date="1564132106937" expanded="true" signature="491:634" ph="{...}" />
+            <marker date="1564132106937" expanded="true" signature="647:710" ph="{...}" />
+            <marker date="1564132106937" expanded="true" signature="747:850" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/MenuScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <marker date="1564143740389" expanded="true" signature="6:114" ph="..." />
+            <marker date="1564143740389" expanded="true" signature="155:362" ph="{...}" />
+            <marker date="1564143740389" expanded="true" signature="215:255" ph="{...}" />
+            <marker date="1564143740389" expanded="true" signature="313:360" ph="{...}" />
           </folding>
         </state>
       </provider>
