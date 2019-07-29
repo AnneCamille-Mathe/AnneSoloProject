@@ -5,6 +5,7 @@ ScriptsOnlyBuild:
     - UnityStandardAssets.Characters.FirstPerson.HeadBob
     - UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController
     Assembly-CSharp.dll:
+    - ClefScript
     - FixedButton
     - FixedJoystick
     - GameOverScript
@@ -15,11 +16,13 @@ ScriptsOnlyBuild:
     - MovePandaScript
     - PandaScript
     - ProjectilScript
+    - Rotation
     - ScriptFallDown
     - ScriptRigidBodyFPS
     - ScriptSpawn
     - ShootScript
     - Timer
+    - TriggerClefScript
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
@@ -38,6 +41,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Shadow
     - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/GameOver.unity:
@@ -64,7 +68,7 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 10298}
+      Script: {instanceID: 10300}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -133,37 +137,45 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9676}
     - Class: 114
+      Script: {instanceID: 9708}
+    - Class: 114
       Script: {instanceID: 9712}
     - Class: 114
       Script: {instanceID: 9714}
     - Class: 114
       Script: {instanceID: 9922}
     - Class: 114
-      Script: {instanceID: 9994}
+      Script: {instanceID: 9942}
     - Class: 114
-      Script: {instanceID: 10002}
+      Script: {instanceID: 9996}
     - Class: 114
-      Script: {instanceID: 10110}
+      Script: {instanceID: 10004}
     - Class: 114
-      Script: {instanceID: 10414}
+      Script: {instanceID: 10112}
     - Class: 114
-      Script: {instanceID: 10628}
+      Script: {instanceID: 10416}
     - Class: 114
-      Script: {instanceID: 10740}
+      Script: {instanceID: 10630}
     - Class: 114
-      Script: {instanceID: 10840}
+      Script: {instanceID: 10742}
     - Class: 114
-      Script: {instanceID: 11172}
+      Script: {instanceID: 10842}
     - Class: 114
-      Script: {instanceID: 11256}
+      Script: {instanceID: 11174}
     - Class: 114
-      Script: {instanceID: 11940}
+      Script: {instanceID: 11258}
     - Class: 114
-      Script: {instanceID: 12074}
+      Script: {instanceID: 11942}
     - Class: 114
-      Script: {instanceID: 12100}
+      Script: {instanceID: 12076}
     - Class: 114
-      Script: {instanceID: 74498}
+      Script: {instanceID: 12102}
+    - Class: 114
+      Script: {instanceID: 28832}
+    - Class: 114
+      Script: {instanceID: 41548}
+    - Class: 114
+      Script: {instanceID: 45124}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -226,7 +238,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9714}
     - Class: 114
-      Script: {instanceID: 10160}
+      Script: {instanceID: 10162}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -364,7 +376,7 @@ ScriptsOnlyBuild:
     className: SkidTrail
   - hash:
       serializedVersion: 2
-      Hash: bb36e1452b66518b9ca142adcfc3b28c
+      Hash: f1b6d80202dbdd11ad8f314bd69d5614
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LifeScript
@@ -836,6 +848,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ee28d751a5206064552cab4d893c2ed5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MovePandaScript
   - hash:
       serializedVersion: 2
       Hash: ede3d522ce29a72deb2613abda57d11e
@@ -1756,10 +1774,22 @@ ScriptsOnlyBuild:
     className: AutoMobileShaderSwitch
   - hash:
       serializedVersion: 2
+      Hash: 7b6efd5225d8239d16eff8b4cc700b23
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ClefScript
+  - hash:
+      serializedVersion: 2
+      Hash: 5d064456c40f7c34690dc0c9d079accc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Rotation
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: MovePandaScript
+    className: TriggerClefScript
   platform: 13
   scenePathNames:
   - Assets/Scenes/Menu.unity

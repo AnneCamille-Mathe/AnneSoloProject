@@ -52,6 +52,11 @@
             </e>
           </e>
         </e>
+        <e p="Models" t="Include">
+          <e p="Key" t="Include">
+            <e p="readME keys.txt" t="Include" />
+          </e>
+        </e>
         <e p="SampleScenes" t="Include">
           <e p="Menu" t="Include">
             <e p="Scripts" t="Include">
@@ -72,19 +77,37 @@
           </e>
         </e>
         <e p="Script" t="Include">
-          <e p="FixedButton.cs" t="Include" />
-          <e p="FixedTouchField.cs" t="Include" />
-          <e p="GameOverScript.cs" t="Include" />
-          <e p="GoblinScript.cs" t="Include" />
-          <e p="LifeScript.cs" t="Include" />
-          <e p="MenuScript.cs" t="Include" />
-          <e p="MovePandaScript.cs" t="Include" />
-          <e p="PandaScript.cs" t="Include" />
-          <e p="ProjectilScript.cs" t="Include" />
-          <e p="ScriptFallDown.cs" t="Include" />
-          <e p="ScriptSpawn.cs" t="Include" />
-          <e p="ShootScript.cs" t="Include" />
-          <e p="Timer.cs" t="Include" />
+          <e p="Affichages" t="Include">
+            <e p="LifeScript.cs" t="Include" />
+            <e p="Timer.cs" t="Include" />
+          </e>
+          <e p="Boutons" t="Include">
+            <e p="FixedButton.cs" t="Include" />
+            <e p="FixedTouchField.cs" t="Include" />
+          </e>
+          <e p="Clef" t="Include">
+            <e p="ClefScript.cs" t="Include" />
+            <e p="ExitScript.cs" t="Include" />
+            <e p="Rotation.cs" t="Include" />
+            <e p="TriggerClefScript.cs" t="Include" />
+          </e>
+          <e p="Gestion des menus" t="Include">
+            <e p="GameOverScript.cs" t="Include" />
+            <e p="MenuScript.cs" t="Include" />
+          </e>
+          <e p="Gestion des Spawns" t="Include">
+            <e p="ScriptFallDown.cs" t="Include" />
+            <e p="ScriptSpawn.cs" t="Include" />
+          </e>
+          <e p="Panda" t="Include">
+            <e p="GoblinScript.cs" t="Include" />
+            <e p="MovePandaScript.cs" t="Include" />
+            <e p="PandaScript.cs" t="Include" />
+          </e>
+          <e p="Tourelle" t="Include">
+            <e p="ProjectilScript.cs" t="Include" />
+            <e p="ShootScript.cs" t="Include" />
+          </e>
         </e>
         <e p="ScriptRigidBodyFPS.cs" t="Include" />
         <e p="Standard Assets" t="Include">
