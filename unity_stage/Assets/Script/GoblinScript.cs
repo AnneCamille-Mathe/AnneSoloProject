@@ -25,7 +25,6 @@ public class GoblinScript : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            Debug.Log("SUCCEEEED !");
             this.textMesh.enabled = true;
             StartCoroutine(TimeAffiche());
         }

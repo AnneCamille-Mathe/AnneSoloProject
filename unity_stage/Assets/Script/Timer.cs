@@ -3,11 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using  UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
     //Déclaration de variables
-    private float temps = 50;
+    private float temps = 5;
     public Text timerText;
     private int minutes;
     private int secondes;
@@ -50,6 +51,7 @@ public class Timer : MonoBehaviour
         else
         {
             this.timerText.text = ("TIME OVER");
+            SceneManager.LoadScene("GameOver");
         }
         
         

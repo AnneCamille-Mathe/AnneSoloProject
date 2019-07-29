@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ZoneSpawn
   - Bullet
+  - Panda
   layers:
   - Default
   - TransparentFX
