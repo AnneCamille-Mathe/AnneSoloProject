@@ -78,6 +78,7 @@
           <e p="GoblinScript.cs" t="Include" />
           <e p="LifeScript.cs" t="Include" />
           <e p="MenuScript.cs" t="Include" />
+          <e p="MovePandaScript.cs" t="Include" />
           <e p="PandaScript.cs" t="Include" />
           <e p="ProjectilScript.cs" t="Include" />
           <e p="ScriptFallDown.cs" t="Include" />

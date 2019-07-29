@@ -7,10 +7,13 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - FixedButton
     - FixedJoystick
+    - GameOverScript
     - GoblinScript
     - Goblin_ro_ctrl
     - LifeScript
     - MenuScript
+    - MovePandaScript
+    - PandaScript
     - ProjectilScript
     - ScriptFallDown
     - ScriptRigidBodyFPS
@@ -26,6 +29,8 @@ ScriptsOnlyBuild:
     - UnityEditor.ProBuilder.ProBuilderEditor
     Unity.ProBuilder.dll:
     - UnityEngine.ProBuilder.ProBuilderMesh
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -35,6 +40,37 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.Text
   sceneClasses:
+    Assets/Scenes/GameOver.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 102
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 10298}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
     Assets/Scenes/Level1.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -109,21 +145,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10110}
     - Class: 114
-      Script: {instanceID: 10412}
+      Script: {instanceID: 10414}
     - Class: 114
-      Script: {instanceID: 10626}
+      Script: {instanceID: 10628}
     - Class: 114
-      Script: {instanceID: 10738}
+      Script: {instanceID: 10740}
     - Class: 114
-      Script: {instanceID: 10838}
+      Script: {instanceID: 10840}
     - Class: 114
-      Script: {instanceID: 11170}
+      Script: {instanceID: 11172}
     - Class: 114
-      Script: {instanceID: 11254}
+      Script: {instanceID: 11256}
     - Class: 114
-      Script: {instanceID: 11938}
+      Script: {instanceID: 11940}
     - Class: 114
-      Script: {instanceID: 12096}
+      Script: {instanceID: 12074}
+    - Class: 114
+      Script: {instanceID: 12100}
+    - Class: 114
+      Script: {instanceID: 74498}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -336,7 +376,7 @@ ScriptsOnlyBuild:
     className: PauseMenu
   - hash:
       serializedVersion: 2
-      Hash: 09770c852d5034b29126e9932a7cc065
+      Hash: cf2e0d0dc68c336c8192273ac03c84af
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GoblinScript
@@ -568,18 +608,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.CrossPlatformInput
     className: TiltInput
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UnityEngine.Advertisements.dll
-    namespaceName: UnityEngine.Advertisements
-    className: CallbackExecutor
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UnityEngine.Advertisements.dll
-    namespaceName: UnityEngine.Advertisements.Editor
-    className: Placeholder
   - hash:
       serializedVersion: 2
       Hash: 357dc9516c87a9d2caf5c0f50c455e56
@@ -958,6 +986,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 43a49f1a4e2a3d08c44dd22f3076a75d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameOverScript
   - hash:
       serializedVersion: 2
       Hash: d67515fd6babd339b8727dc35ae03966
@@ -1686,6 +1720,12 @@ ScriptsOnlyBuild:
     className: SignalEmitter
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PandaScript
+  - hash:
+      serializedVersion: 2
       Hash: c3c9ca41641be0f809a1be8b5242cc2e
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem
@@ -1714,8 +1754,15 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.Utility
     className: AutoMobileShaderSwitch
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MovePandaScript
   platform: 13
   scenePathNames:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/Level1.unity
+  - Assets/Scenes/GameOver.unity
   playerPath: C:/Users/Utilisateur/Documents/ESEO/I2/github_Stage/AnneSoloProject/unity_stage/Builds/Android.apk

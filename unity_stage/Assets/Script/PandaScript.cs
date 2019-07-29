@@ -16,22 +16,9 @@ public class PandaScript : MonoBehaviour
     {
         
     }
-    
-    //Détection de l'objet
-    void OnTriggerEnter(Collider other)
+
+    private void OnMouseDown()
     {
-        if (other.gameObject.tag == "Panda")
-        {
-            print("Trigger");
-        }
-    }
-    
-    //Détection sortie de l'objet
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.gameObject.tag == "Panda")
-        {
-            print("Exit trigger");
-        }
+        this.gameObject.SetActive(false);
     }
 }
