@@ -87,8 +87,8 @@
           </e>
           <e p="Clef" t="Include">
             <e p="ClefScript.cs" t="Include" />
+            <e p="DoorScript.cs" t="Include" />
             <e p="ExitScript.cs" t="Include" />
-            <e p="Rotation.cs" t="Include" />
             <e p="TriggerClefScript.cs" t="Include" />
           </e>
           <e p="Gestion des menus" t="Include">

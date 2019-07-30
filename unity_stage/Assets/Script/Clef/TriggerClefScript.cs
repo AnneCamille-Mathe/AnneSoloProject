@@ -31,9 +31,25 @@ public class TriggerClefScript : MonoBehaviour
     IEnumerator GetKey()
     {
         GameObject.Find("Canvas_Clef").GetComponent<ClefScript>().LockedDoor = false;
-        GameObject.Find("Cube_Panda").GetComponent<MovePandaScript>().debut = true;
         GameObject.Find("Canvas_Clef").GetComponent<ClefScript>().PanelText.SetActive(true);
         GameObject.Find("Canvas_Clef/Panel_Clef/Text_Clef").GetComponent<Text>().text = "Sortez !";
         yield return new WaitForSeconds(0.5f);
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

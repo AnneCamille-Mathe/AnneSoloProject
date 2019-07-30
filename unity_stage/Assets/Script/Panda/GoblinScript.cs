@@ -24,8 +24,7 @@ public class GoblinScript : MonoBehaviour
         this.go_goblin_text = GameObject.Find("popup_goblin");
         if (go_panda==null)
         {
-            StartCoroutine(TimeAffiche());
-            this.textMesh.enabled = true;
+            StartCoroutine(TimeAffiche2());
             this.go_goblin_text.GetComponent<TextMesh>().text = "Merci beaucoup !";
       }
     }
@@ -46,6 +45,12 @@ public class GoblinScript : MonoBehaviour
     IEnumerator TimeAffiche()
     {
         yield return new WaitForSeconds(SecToFall);
+        this.textMesh.enabled = false;
+    }
+    
+    IEnumerator TimeAffiche2()
+    {
+        yield return new WaitForSeconds(10 * SecToFall);
         this.textMesh.enabled = false;
     }
 }

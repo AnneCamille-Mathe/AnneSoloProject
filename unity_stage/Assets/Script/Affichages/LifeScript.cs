@@ -42,7 +42,6 @@ public class LifeScript : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        
         if (other.gameObject.tag == "Player")
         {
             this.Score -= 1;

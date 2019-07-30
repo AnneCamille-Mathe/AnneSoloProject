@@ -5,8 +5,9 @@ using UnityEngine;
 
 public class ExitScript : MonoBehaviour
 {
-    //Variables
     
+    //Variable
+    public bool lock_mark;
     
     // Start is called before the first frame update
     void Start()
@@ -23,12 +24,15 @@ public class ExitScript : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
+        
         {
             bool locked = GameObject.Find("Canvas_Clef").GetComponent<ClefScript>().LockedDoor;
             if (!locked)
             {
                 GameObject.Find("Classic_Door_01").transform.Rotate(Vector3.negativeInfinity, 160*Time.deltaTime);
             }
+
+            this.lock_mark = locked;
         }
     }
 }
