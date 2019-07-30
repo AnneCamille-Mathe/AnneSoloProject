@@ -22,7 +22,7 @@ public class DoorScript : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (!GameObject.Find("Classic_Door_01").GetComponent<ExitScript>().lock_mark)
+        if (!GameObject.Find("Canvas_Clef").GetComponent<ClefScript>().LockedDoor)
         {
             this.anim.SetTrigger("OpenDoor");
         }

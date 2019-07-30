@@ -18,7 +18,8 @@ public class ProjectilScript : MonoBehaviour
     private void OnTriggerEnter(Collider other){
         if (other.gameObject.tag == "Player")
         {
-            GameObject.Find("SpawnFPSController/Canvas_Score/Panel").GetComponent<LifeScript>().Score -= 1;
+           GameObject.Find("SpawnFPSController/ZoneSpawn").GetComponent<LifeScript>().Score -= 1;
+           GameObject.Find("SpawnFPSController/ZoneSpawn").GetComponent<LifeScript>().Score_Info.text = "Score : " + GameObject.Find("SpawnFPSController/ZoneSpawn").GetComponent<LifeScript>().Score;
         }
     }
 }
