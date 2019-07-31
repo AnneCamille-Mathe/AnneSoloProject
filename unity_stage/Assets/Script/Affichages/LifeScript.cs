@@ -44,10 +44,8 @@ public class LifeScript : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            this.Score -= 1;
+            this.Score -= 3;
             this.Score_Info.text = "Score : " + this.Score;
         }
-
-        
     }
 }

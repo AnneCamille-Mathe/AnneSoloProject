@@ -25,7 +25,7 @@ public class GoblinScript : MonoBehaviour
         if (go_panda==null)
         {
             StartCoroutine(TimeAffiche2());
-            this.go_goblin_text.GetComponent<TextMesh>().text = "Merci beaucoup !";
+            this.go_goblin_text.GetComponent<TextMesh>().text = "    Merci beaucoup ! \n Il doit retourner coder";
       }
     }
 

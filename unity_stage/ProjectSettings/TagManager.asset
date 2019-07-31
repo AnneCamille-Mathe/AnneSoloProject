@@ -8,6 +8,7 @@ TagManager:
   - Bullet
   - Panda
   - Goblin
+  - cube1
   layers:
   - Default
   - TransparentFX

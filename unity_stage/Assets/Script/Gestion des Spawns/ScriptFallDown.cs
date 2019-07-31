@@ -5,7 +5,7 @@ public class ScriptFallDown : MonoBehaviour {
 
     //Déclarations des Variables
 
-    public float SecToFall = 2; //Temporisation avant la Chute 
+    public float SecToFall = 5; //Temporisation avant la Chute 
     private Rigidbody rb; //Composant rigidbody
     private Material plateformColor; // Composant color
     private Vector3 PositionDepart; //Stocke la position de départ;
