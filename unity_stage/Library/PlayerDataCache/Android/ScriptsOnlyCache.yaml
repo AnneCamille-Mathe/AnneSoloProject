@@ -6,6 +6,7 @@ ScriptsOnlyBuild:
     - UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController
     Assembly-CSharp.dll:
     - ClefScript
+    - CombinaisonScript
     - Cube
     - DetectionScript
     - DoorScript
@@ -19,6 +20,7 @@ ScriptsOnlyBuild:
     - MenuScript
     - MovePandaScript
     - PandaScript
+    - PanelScript
     - PauseButton
     - ProjectilScript
     - RotationClefScript
@@ -46,6 +48,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
     - UnityEngine.UI.Shadow
     - UnityEngine.UI.Text
   sceneClasses:
@@ -144,6 +147,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9676}
     - Class: 114
+      Script: {instanceID: 9678}
+    - Class: 114
       Script: {instanceID: 9708}
     - Class: 114
       Script: {instanceID: 9712}
@@ -194,11 +199,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12134}
     - Class: 114
-      Script: {instanceID: 19706}
+      Script: {instanceID: 19750}
     - Class: 114
-      Script: {instanceID: 19708}
+      Script: {instanceID: 19752}
     - Class: 114
-      Script: {instanceID: 19716}
+      Script: {instanceID: 19760}
+    - Class: 114
+      Script: {instanceID: 37008}
+    - Class: 114
+      Script: {instanceID: 63928}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -1845,6 +1854,18 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Cube
+  - hash:
+      serializedVersion: 2
+      Hash: 8bda6c523695506e20716ebc72ed6ea6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CombinaisonScript
+  - hash:
+      serializedVersion: 2
+      Hash: 107ed35f5e0962bccae92d9b1e9d9989
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PanelScript
   platform: 13
   scenePathNames:
   - Assets/Scenes/Menu.unity

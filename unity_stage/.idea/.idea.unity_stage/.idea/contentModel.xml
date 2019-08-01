@@ -93,8 +93,10 @@
             <e p="TriggerClefScript.cs" t="Include" />
           </e>
           <e p="Empilement" t="Include">
+            <e p="CombinaisonScript.cs" t="Include" />
             <e p="Cube.cs" t="Include" />
             <e p="DetectionScript.cs" t="Include" />
+            <e p="PanelScript.cs" t="Include" />
           </e>
           <e p="Gestion des menus" t="Include">
             <e p="GameOverScript.cs" t="Include" />
