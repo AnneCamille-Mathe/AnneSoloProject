@@ -15,9 +15,11 @@ ScriptsOnlyBuild:
     - GoblinScript
     - Goblin_ro_ctrl
     - LifeScript
+    - MenuPause
     - MenuScript
     - MovePandaScript
     - PandaScript
+    - PauseButton
     - ProjectilScript
     - RotationClefScript
     - ScriptFallDown
@@ -71,7 +73,7 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 10302}
+      Script: {instanceID: 10304}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -132,6 +134,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9616}
     - Class: 114
+      Script: {instanceID: 9654}
+    - Class: 114
       Script: {instanceID: 9656}
     - Class: 114
       Script: {instanceID: 9662}
@@ -156,41 +160,45 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10006}
     - Class: 114
-      Script: {instanceID: 10114}
+      Script: {instanceID: 10054}
     - Class: 114
-      Script: {instanceID: 10418}
+      Script: {instanceID: 10116}
     - Class: 114
-      Script: {instanceID: 10616}
+      Script: {instanceID: 10420}
     - Class: 114
-      Script: {instanceID: 10634}
+      Script: {instanceID: 10618}
     - Class: 114
-      Script: {instanceID: 10746}
+      Script: {instanceID: 10636}
     - Class: 114
-      Script: {instanceID: 10846}
+      Script: {instanceID: 10748}
     - Class: 114
-      Script: {instanceID: 10926}
+      Script: {instanceID: 10848}
     - Class: 114
-      Script: {instanceID: 11180}
+      Script: {instanceID: 10928}
     - Class: 114
-      Script: {instanceID: 11264}
+      Script: {instanceID: 11182}
     - Class: 114
-      Script: {instanceID: 11750}
+      Script: {instanceID: 11266}
     - Class: 114
-      Script: {instanceID: 11804}
+      Script: {instanceID: 11752}
     - Class: 114
-      Script: {instanceID: 11952}
+      Script: {instanceID: 11806}
     - Class: 114
-      Script: {instanceID: 12086}
+      Script: {instanceID: 11900}
     - Class: 114
-      Script: {instanceID: 12112}
+      Script: {instanceID: 11956}
     - Class: 114
-      Script: {instanceID: 12130}
+      Script: {instanceID: 12090}
     - Class: 114
-      Script: {instanceID: 19648}
+      Script: {instanceID: 12116}
     - Class: 114
-      Script: {instanceID: 19650}
+      Script: {instanceID: 12134}
     - Class: 114
-      Script: {instanceID: 19658}
+      Script: {instanceID: 19706}
+    - Class: 114
+      Script: {instanceID: 19708}
+    - Class: 114
+      Script: {instanceID: 19716}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -255,7 +263,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9714}
     - Class: 114
-      Script: {instanceID: 10164}
+      Script: {instanceID: 10166}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -931,6 +939,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.Plugins.XR
     className: TrackedPoseDriver
+  - hash:
+      serializedVersion: 2
+      Hash: f18358d6d20ad142f11976741841c8dd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MenuPause
   - hash:
       serializedVersion: 2
       Hash: 00274a21279f5cb831ce20f895049e38
@@ -1741,6 +1755,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.Water
     className: WaterTile
+  - hash:
+      serializedVersion: 2
+      Hash: 562ca269d5a103bbf4e1f2e46a1dcb7e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PauseButton
   - hash:
       serializedVersion: 2
       Hash: 5372ed2ce39229b1ac910757999a8be2

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -22,6 +23,7 @@ public class PauseButton : MonoBehaviour, IPointerUpHandler, IPointerDownHandler
         
     }
     
+    
     public void OnPointerDown(PointerEventData eventData)
     {
         
@@ -29,10 +31,10 @@ public class PauseButton : MonoBehaviour, IPointerUpHandler, IPointerDownHandler
         Pressed = true;
     }
 
+    
     public void OnPointerUp(PointerEventData eventData)
     {
         Pressed = false;
     }
     
-
 }
