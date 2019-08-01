@@ -10,20 +10,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Script/Empilement/CombinaisonScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+            <state relative-caret-position="345">
+              <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
               <folding>
-                <marker date="1564662647666" expanded="false" signature="6:132" ph="..." />
-                <marker date="1564662647666" expanded="true" signature="180:1427" ph="{...}" />
-                <marker date="1564662647666" expanded="true" signature="363:404" ph="{...}" />
-                <marker date="1564662647666" expanded="true" signature="462:483" ph="{...}" />
-                <marker date="1564662647666" expanded="true" signature="515:1416" ph="{...}" />
-                <marker date="1564662647666" expanded="true" signature="551:908" ph="{...}" />
-                <marker date="1564662647666" expanded="true" signature="945:1410" ph="{...}" />
-                <marker date="1564662647666" expanded="true" signature="1303:1400" ph="/* 5.72 1.39 -15.29 ... */" />
+                <marker date="1564666066117" expanded="false" signature="6:132" ph="..." />
+                <marker date="1564666066117" expanded="true" signature="180:1617" ph="{...}" />
+                <marker date="1564666066117" expanded="true" signature="363:404" ph="{...}" />
+                <marker date="1564666066117" expanded="true" signature="462:483" ph="{...}" />
+                <marker date="1564666066117" expanded="true" signature="515:1606" ph="{...}" />
+                <marker date="1564666066117" expanded="true" signature="551:1208" ph="{...}" />
+                <marker date="1564666066117" expanded="true" signature="1245:1600" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Script/Presentation projets/DetectionECVR.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="472">
+              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+              <folding>
+                <marker date="1564667084323" expanded="true" signature="6:101" ph="..." />
+                <marker date="1564667084323" expanded="true" signature="145:628" ph="{...}" />
+                <marker date="1564667084323" expanded="true" signature="267:288" ph="{...}" />
+                <marker date="1564667084323" expanded="true" signature="346:367" ph="{...}" />
+                <marker date="1564667084323" expanded="true" signature="420:533" ph="{...}" />
+                <marker date="1564667084323" expanded="true" signature="472:527" ph="{...}" />
+                <marker date="1564667084323" expanded="true" signature="581:625" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Script/Clef/TriggerClefScript.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="45" column="93" selection-start-line="45" selection-start-column="93" selection-end-line="45" selection-end-column="93" />
+              <folding>
+                <marker date="1564671408867" expanded="true" signature="6:114" ph="..." />
+                <marker date="1564671408867" expanded="true" signature="163:1151" ph="{...}" />
+                <marker date="1564671408867" expanded="true" signature="244:265" ph="{...}" />
+                <marker date="1564671408867" expanded="true" signature="323:344" ph="{...}" />
+                <marker date="1564671408867" expanded="true" signature="393:607" ph="{...}" />
+                <marker date="1564671408867" expanded="true" signature="445:601" ph="{...}" />
+                <marker date="1564671408867" expanded="true" signature="633:971" ph="{...}" />
+                <marker date="1564671408867" expanded="true" signature="998:1149" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -32,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Script/Empilement/PanelScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="502">
+              <caret line="37" column="6" selection-start-line="26" selection-start-column="3" selection-end-line="37" selection-end-column="6" />
               <folding>
                 <marker date="1564651762684" expanded="true" signature="6:92" ph="..." />
                 <marker date="1564651762684" expanded="true" signature="134:934" ph="{...}" />
@@ -70,6 +106,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Script/Clef/ClefScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Gestion des Spawns/ScriptFallDown.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Gestion des menus/MenuScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Presentation projets/DetectionECVR.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ScriptRigidBodyFPS.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Tourelle/ProjectilScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Clef/TriggerClefScript.cs" root0="FORCE_HIGHLIGHTING" />
@@ -112,7 +149,6 @@
         <option value="$PROJECT_DIR$/Assets/Script/Clef/Rotation.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Panda/MovePandaScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Clef/ExitScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Clef/TriggerClefScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Clef/DoorScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Clef/RotationClefScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Tourelle/ProjectilScript.cs" />
@@ -122,19 +158,21 @@
         <option value="$PROJECT_DIR$/Assets/Script/Empilement/Cube1Script.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Empilement/TouchManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Empilement/DetectionScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Empilement/Cube.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Boutons/PauseButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Gestion des menus/MenuPause.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Clef/ClefScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Empilement/PanelScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Affichages/Timer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Empilement/Cube.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Empilement/CombinaisonScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Presentation projets/DetectionECVR.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Clef/TriggerClefScript.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="y" value="16" />
+    <option name="x" value="-176" />
+    <option name="y" value="222" />
     <option name="width" value="1614" />
     <option name="height" value="867" />
   </component>
@@ -201,12 +239,12 @@
       <workItem from="1564047046663" duration="13412000" />
       <workItem from="1564149071427" duration="971000" />
       <workItem from="1564384561238" duration="30909000" />
-      <workItem from="1564564831948" duration="21916000" />
+      <workItem from="1564564831948" duration="25441000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89611000" />
+    <option name="totallyTimeSpent" value="93136000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -509,22 +547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/Empilement/Cube.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="25" column="103" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="103" />
-          <folding>
-            <marker date="1564578040827" expanded="true" signature="6:44" ph="..." />
-            <marker date="1564578040827" expanded="true" signature="80:1502" ph="{...}" />
-            <marker date="1564578040827" expanded="true" signature="293:458" ph="{...}" />
-            <marker date="1564578040827" expanded="true" signature="519:1050" ph="{...}" />
-            <marker date="1564578040827" expanded="true" signature="630:1044" ph="{...}" />
-            <marker date="1564578040827" expanded="true" signature="753:1034" ph="{...}" />
-            <marker date="1564578040827" expanded="true" signature="1088:1500" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/Boutons/FixedButton.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -563,21 +585,6 @@
             <marker date="1564585716265" expanded="true" signature="426:447" ph="{...}" />
             <marker date="1564585716265" expanded="true" signature="515:646" ph="{...}" />
             <marker date="1564585716265" expanded="true" signature="708:745" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/Clef/TriggerClefScript.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1564478844854" expanded="true" signature="6:114" ph="..." />
-            <marker date="1564478844854" expanded="true" signature="163:921" ph="{...}" />
-            <marker date="1564478844854" expanded="true" signature="244:265" ph="{...}" />
-            <marker date="1564478844854" expanded="true" signature="323:344" ph="{...}" />
-            <marker date="1564478844854" expanded="true" signature="393:555" ph="{...}" />
-            <marker date="1564478844854" expanded="true" signature="445:549" ph="{...}" />
-            <marker date="1564478844854" expanded="true" signature="581:919" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -729,10 +736,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/Empilement/Cube.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+          <folding>
+            <marker date="1564663202466" expanded="true" signature="6:44" ph="..." />
+            <marker date="1564663202466" expanded="true" signature="80:1430" ph="{...}" />
+            <marker date="1564663202466" expanded="true" signature="293:386" ph="{...}" />
+            <marker date="1564663202466" expanded="true" signature="447:978" ph="{...}" />
+            <marker date="1564663202466" expanded="true" signature="558:972" ph="{...}" />
+            <marker date="1564663202466" expanded="true" signature="681:962" ph="{...}" />
+            <marker date="1564663202466" expanded="true" signature="1016:1428" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/Empilement/PanelScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="502">
+          <caret line="37" column="6" selection-start-line="26" selection-start-column="3" selection-end-line="37" selection-end-column="6" />
           <folding>
             <marker date="1564651762684" expanded="true" signature="6:92" ph="..." />
             <marker date="1564651762684" expanded="true" signature="134:934" ph="{...}" />
@@ -747,17 +770,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/Empilement/CombinaisonScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+        <state relative-caret-position="345">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
           <folding>
-            <marker date="1564662647666" expanded="false" signature="6:132" ph="..." />
-            <marker date="1564662647666" expanded="true" signature="180:1427" ph="{...}" />
-            <marker date="1564662647666" expanded="true" signature="363:404" ph="{...}" />
-            <marker date="1564662647666" expanded="true" signature="462:483" ph="{...}" />
-            <marker date="1564662647666" expanded="true" signature="515:1416" ph="{...}" />
-            <marker date="1564662647666" expanded="true" signature="551:908" ph="{...}" />
-            <marker date="1564662647666" expanded="true" signature="945:1410" ph="{...}" />
-            <marker date="1564662647666" expanded="true" signature="1303:1400" ph="/* 5.72 1.39 -15.29 ... */" />
+            <marker date="1564666066117" expanded="false" signature="6:132" ph="..." />
+            <marker date="1564666066117" expanded="true" signature="180:1617" ph="{...}" />
+            <marker date="1564666066117" expanded="true" signature="363:404" ph="{...}" />
+            <marker date="1564666066117" expanded="true" signature="462:483" ph="{...}" />
+            <marker date="1564666066117" expanded="true" signature="515:1606" ph="{...}" />
+            <marker date="1564666066117" expanded="true" signature="551:1208" ph="{...}" />
+            <marker date="1564666066117" expanded="true" signature="1245:1600" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/Presentation projets/DetectionECVR.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding>
+            <marker date="1564667084323" expanded="true" signature="6:101" ph="..." />
+            <marker date="1564667084323" expanded="true" signature="145:628" ph="{...}" />
+            <marker date="1564667084323" expanded="true" signature="267:288" ph="{...}" />
+            <marker date="1564667084323" expanded="true" signature="346:367" ph="{...}" />
+            <marker date="1564667084323" expanded="true" signature="420:533" ph="{...}" />
+            <marker date="1564667084323" expanded="true" signature="472:527" ph="{...}" />
+            <marker date="1564667084323" expanded="true" signature="581:625" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/Clef/TriggerClefScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="45" column="93" selection-start-line="45" selection-start-column="93" selection-end-line="45" selection-end-column="93" />
+          <folding>
+            <marker date="1564671408867" expanded="true" signature="6:114" ph="..." />
+            <marker date="1564671408867" expanded="true" signature="163:1151" ph="{...}" />
+            <marker date="1564671408867" expanded="true" signature="244:265" ph="{...}" />
+            <marker date="1564671408867" expanded="true" signature="323:344" ph="{...}" />
+            <marker date="1564671408867" expanded="true" signature="393:607" ph="{...}" />
+            <marker date="1564671408867" expanded="true" signature="445:601" ph="{...}" />
+            <marker date="1564671408867" expanded="true" signature="633:971" ph="{...}" />
+            <marker date="1564671408867" expanded="true" signature="998:1149" ph="{...}" />
           </folding>
         </state>
       </provider>

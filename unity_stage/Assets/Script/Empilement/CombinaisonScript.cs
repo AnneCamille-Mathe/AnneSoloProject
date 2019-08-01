@@ -42,9 +42,6 @@ public class CombinaisonScript : MonoBehaviour
             Debug.Log("test fail");
             GameObject.Find("SpawnFPSController/ZoneSpawn").GetComponent<LifeScript>().Score -= 3;
             GameObject.Find("SpawnFPSController/ZoneSpawn").GetComponent<LifeScript>().Score_Info.text = "Score : " + GameObject.Find("SpawnFPSController/ZoneSpawn").GetComponent<LifeScript>().Score;
-            
-            //5.72 1.39 -15.29
-            //TODO enlever code du carré et l'expliquer rapport
         }
     }
     

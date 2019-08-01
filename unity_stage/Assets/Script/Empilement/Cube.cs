@@ -13,11 +13,8 @@ public class Cube : MonoBehaviour {
     // Use this for initialization
     void Start () 
     {
-        //referencia transform
         cachedTransform = transform;
-  
-        //salva a posicao inicial
-        startingPos = cachedTransform.position;
+    startingPos = cachedTransform.position;
     }
  
     // Update is called once per frame

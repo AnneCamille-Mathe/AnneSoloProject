@@ -27,6 +27,8 @@ public class TriggerClefScript : MonoBehaviour
         {
             StartCoroutine(this.GetKey());
             gameObject.SetActive(false);
+            StartCoroutine(WaitBug());
+            
         }
     }
 
@@ -36,6 +38,12 @@ public class TriggerClefScript : MonoBehaviour
         GameObject.Find("Canvas_Clef").GetComponent<ClefScript>().PanelText.SetActive(true);
         GameObject.Find("Canvas_Clef/Panel_Clef/Text_Clef").GetComponent<Text>().text = "Sortez !";
         yield return new WaitForSeconds(0.5f);
+    }
+
+    IEnumerator WaitBug()
+    {
+        yield return new WaitForSeconds(5f);
+        GameObject.Find("Canvas_Clef").GetComponent<ClefScript>().PanelText.SetActive(false);
     }
 }
 

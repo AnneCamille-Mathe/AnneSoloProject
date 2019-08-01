@@ -112,6 +112,9 @@
             <e p="MovePandaScript.cs" t="Include" />
             <e p="PandaScript.cs" t="Include" />
           </e>
+          <e p="Presentation projets" t="Include">
+            <e p="DetectionECVR.cs" t="Include" />
+          </e>
           <e p="Tourelle" t="Include">
             <e p="ProjectilScript.cs" t="Include" />
             <e p="ShootScript.cs" t="Include" />
