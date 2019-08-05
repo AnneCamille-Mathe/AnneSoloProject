@@ -86,22 +86,26 @@
             <e p="FixedTouchField.cs" t="Include" />
             <e p="PauseButton.cs" t="Include" />
           </e>
-          <e p="Clef_escape" t="Include">
-            <e p="ClefVRScript.cs" t="Include" />
-            <e p="DoorVRScript.cs" t="Include" />
-            <e p="RotationClefArgent.cs" t="Include" />
-          </e>
           <e p="Clef_sortie" t="Include">
             <e p="ClefScript.cs" t="Include" />
             <e p="DoorScript.cs" t="Include" />
             <e p="RotationClefScript.cs" t="Include" />
             <e p="TriggerClefScript.cs" t="Include" />
           </e>
+          <e p="Clef_VR" t="Include">
+            <e p="AffichageVRScript.cs" t="Include" />
+            <e p="ClefVRScript.cs" t="Include" />
+            <e p="DoorVRScript.cs" t="Include" />
+            <e p="RotationClefArgent.cs" t="Include" />
+          </e>
           <e p="Empilement" t="Include">
             <e p="CombinaisonScript.cs" t="Include" />
             <e p="Cube.cs" t="Include" />
             <e p="DetectionScript.cs" t="Include" />
             <e p="PanelScript.cs" t="Include" />
+          </e>
+          <e p="Escape_ClefVR" t="Include">
+            <e p="EscapeVRDoor.cs" t="Include" />
           </e>
           <e p="Gestion des menus" t="Include">
             <e p="GameOverScript.cs" t="Include" />
