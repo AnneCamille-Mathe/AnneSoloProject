@@ -8,8 +8,8 @@ public class CombinaisonScript : MonoBehaviour
 {
     //Variables
     public InputField test;
-    public bool trouve = false;
     public Text Text_succeed;
+    public bool trouve;
     
     // Start is called before the first frame update
     void Start()
@@ -27,19 +27,15 @@ public class CombinaisonScript : MonoBehaviour
     {
         if (test.text=="123")
         {
-            Debug.Log("test reussite");
-            this.trouve = true;
             GameObject.Find("Canvas_empiler/Panel_combinaison/Text_choix").SetActive(false);
             GameObject.Find("Canvas_empiler/Panel_combinaison/Text_succeed").SetActive(true);
-            this.Text_succeed.text = "Bravo vous avez reussi !";
+            this.Text_succeed.text = "Bubble VR deverouillee";
             GameObject.Find("SpawnFPSController/ZoneSpawn").GetComponent<LifeScript>().Score += 3;
             GameObject.Find("SpawnFPSController/ZoneSpawn").GetComponent<LifeScript>().Score_Info.text = "Score : " + GameObject.Find("SpawnFPSController/ZoneSpawn").GetComponent<LifeScript>().Score;
-
-            
+            this.trouve = true;
         }
         else if (test.text != "123")
         {
-            Debug.Log("test fail");
             GameObject.Find("SpawnFPSController/ZoneSpawn").GetComponent<LifeScript>().Score -= 3;
             GameObject.Find("SpawnFPSController/ZoneSpawn").GetComponent<LifeScript>().Score_Info.text = "Score : " + GameObject.Find("SpawnFPSController/ZoneSpawn").GetComponent<LifeScript>().Score;
         }

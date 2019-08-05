@@ -93,6 +93,7 @@
             <e p="TriggerClefScript.cs" t="Include" />
           </e>
           <e p="Clef_VR" t="Include">
+            <e p="AffichageBubbleScript.cs" t="Include" />
             <e p="AffichageVRScript.cs" t="Include" />
             <e p="ClefVRScript.cs" t="Include" />
             <e p="DoorVRScript.cs" t="Include" />

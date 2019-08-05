@@ -5,6 +5,7 @@ ScriptsOnlyBuild:
     - UnityStandardAssets.Characters.FirstPerson.HeadBob
     - UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController
     Assembly-CSharp.dll:
+    - AffichageBubbleScript
     - AffichageVRScript
     - ClefScript
     - ClefVRScript
@@ -45,6 +46,7 @@ ScriptsOnlyBuild:
     - UnityEditor.ProBuilder.EditorToolbar
     - UnityEditor.ProBuilder.ProBuilderEditor
     Unity.ProBuilder.dll:
+    - UnityEngine.ProBuilder.PolyShape
     - UnityEngine.ProBuilder.ProBuilderMesh
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
@@ -174,6 +176,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9718}
     - Class: 114
+      Script: {instanceID: 9760}
+    - Class: 114
       Script: {instanceID: 9784}
     - Class: 114
       Script: {instanceID: 9928}
@@ -220,21 +224,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11968}
     - Class: 114
-      Script: {instanceID: 12102}
+      Script: {instanceID: 12000}
     - Class: 114
-      Script: {instanceID: 12108}
+      Script: {instanceID: 12104}
     - Class: 114
-      Script: {instanceID: 12130}
+      Script: {instanceID: 12106}
     - Class: 114
-      Script: {instanceID: 12148}
+      Script: {instanceID: 12112}
     - Class: 114
-      Script: {instanceID: 20436}
+      Script: {instanceID: 12134}
     - Class: 114
-      Script: {instanceID: 20446}
+      Script: {instanceID: 12152}
     - Class: 114
-      Script: {instanceID: 43476}
+      Script: {instanceID: 20846}
     - Class: 114
-      Script: {instanceID: 91834}
+      Script: {instanceID: 20856}
+    - Class: 114
+      Script: {instanceID: 38074}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -389,7 +395,7 @@ ScriptsOnlyBuild:
     className: FirstPersonController
   - hash:
       serializedVersion: 2
-      Hash: 8bda6c523695506e20716ebc72ed6ea6
+      Hash: f8c54b0eb03cd738c274ace59b8ce61b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CombinaisonScript
@@ -1391,7 +1397,7 @@ ScriptsOnlyBuild:
     className: CarController
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 10d8be03118039a952f30c83003bc861
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DoorVRScript
@@ -1859,6 +1865,12 @@ ScriptsOnlyBuild:
     className: ScriptFallDown
   - hash:
       serializedVersion: 2
+      Hash: 107ed35f5e0962bccae92d9b1e9d9989
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AffichageVRScript
+  - hash:
+      serializedVersion: 2
       Hash: 8649814970b42d345b89944b862453cc
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -1881,6 +1893,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PandaScript
+  - hash:
+      serializedVersion: 2
+      Hash: 7b33d7aa2d130112fc1359b0fe0c8917
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EscapeVRDoor
   - hash:
       serializedVersion: 2
       Hash: bea940328c64bcd770776d2b2d2b016a
@@ -1925,16 +1943,10 @@ ScriptsOnlyBuild:
     className: Cube
   - hash:
       serializedVersion: 2
-      Hash: 107ed35f5e0962bccae92d9b1e9d9989
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: AffichageVRScript
-  - hash:
-      serializedVersion: 2
       Hash: 7b33d7aa2d130112fc1359b0fe0c8917
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: EscapeVRDoor
+    className: AffichageBubbleScript
   platform: 13
   scenePathNames:
   - Assets/Scenes/Menu.unity
