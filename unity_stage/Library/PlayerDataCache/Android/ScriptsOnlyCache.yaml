@@ -15,6 +15,7 @@ ScriptsOnlyBuild:
     - DetectionScript
     - Detectionprojet1
     - DoorScript
+    - DoorSortie3Script
     - DoorVRScript
     - EscapeVRDoor
     - FixedButton
@@ -25,6 +26,7 @@ ScriptsOnlyBuild:
     - LifeScript
     - MenuPause
     - MenuScript
+    - MessageSortieScript
     - MovePandaScript
     - PandaScript
     - PanelScript
@@ -48,14 +50,6 @@ ScriptsOnlyBuild:
     Unity.ProBuilder.dll:
     - UnityEngine.ProBuilder.PolyShape
     - UnityEngine.ProBuilder.ProBuilderMesh
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
-    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
@@ -93,7 +87,7 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 10310}
+      Script: {instanceID: 10312}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -156,91 +150,95 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9590}
     - Class: 114
-      Script: {instanceID: 9620}
+      Script: {instanceID: 9602}
     - Class: 114
-      Script: {instanceID: 9658}
+      Script: {instanceID: 9622}
     - Class: 114
       Script: {instanceID: 9660}
     - Class: 114
-      Script: {instanceID: 9666}
+      Script: {instanceID: 9662}
     - Class: 114
-      Script: {instanceID: 9672}
+      Script: {instanceID: 9668}
     - Class: 114
-      Script: {instanceID: 9680}
+      Script: {instanceID: 9674}
     - Class: 114
       Script: {instanceID: 9682}
     - Class: 114
-      Script: {instanceID: 9712}
+      Script: {instanceID: 9684}
     - Class: 114
-      Script: {instanceID: 9716}
+      Script: {instanceID: 9714}
     - Class: 114
       Script: {instanceID: 9718}
     - Class: 114
-      Script: {instanceID: 9760}
+      Script: {instanceID: 9720}
     - Class: 114
-      Script: {instanceID: 9784}
+      Script: {instanceID: 9762}
     - Class: 114
-      Script: {instanceID: 9928}
+      Script: {instanceID: 9786}
     - Class: 114
-      Script: {instanceID: 9948}
+      Script: {instanceID: 9930}
     - Class: 114
-      Script: {instanceID: 10002}
+      Script: {instanceID: 9950}
     - Class: 114
-      Script: {instanceID: 10010}
+      Script: {instanceID: 10004}
     - Class: 114
-      Script: {instanceID: 10036}
+      Script: {instanceID: 10012}
     - Class: 114
-      Script: {instanceID: 10060}
+      Script: {instanceID: 10038}
     - Class: 114
-      Script: {instanceID: 10122}
+      Script: {instanceID: 10062}
     - Class: 114
-      Script: {instanceID: 10390}
+      Script: {instanceID: 10124}
     - Class: 114
-      Script: {instanceID: 10428}
+      Script: {instanceID: 10392}
     - Class: 114
-      Script: {instanceID: 10622}
+      Script: {instanceID: 10430}
     - Class: 114
-      Script: {instanceID: 10628}
+      Script: {instanceID: 10624}
     - Class: 114
-      Script: {instanceID: 10646}
+      Script: {instanceID: 10630}
     - Class: 114
-      Script: {instanceID: 10758}
+      Script: {instanceID: 10648}
     - Class: 114
-      Script: {instanceID: 10838}
+      Script: {instanceID: 10760}
     - Class: 114
-      Script: {instanceID: 10860}
+      Script: {instanceID: 10840}
     - Class: 114
-      Script: {instanceID: 10940}
+      Script: {instanceID: 10862}
     - Class: 114
-      Script: {instanceID: 11194}
+      Script: {instanceID: 10942}
     - Class: 114
-      Script: {instanceID: 11278}
+      Script: {instanceID: 10980}
     - Class: 114
-      Script: {instanceID: 11764}
+      Script: {instanceID: 11198}
     - Class: 114
-      Script: {instanceID: 11818}
+      Script: {instanceID: 11282}
     - Class: 114
-      Script: {instanceID: 11912}
+      Script: {instanceID: 11768}
     - Class: 114
-      Script: {instanceID: 11968}
+      Script: {instanceID: 11822}
     - Class: 114
-      Script: {instanceID: 12000}
+      Script: {instanceID: 11916}
     - Class: 114
-      Script: {instanceID: 12104}
+      Script: {instanceID: 11972}
     - Class: 114
-      Script: {instanceID: 12106}
+      Script: {instanceID: 12004}
     - Class: 114
-      Script: {instanceID: 12112}
+      Script: {instanceID: 12108}
     - Class: 114
-      Script: {instanceID: 12134}
+      Script: {instanceID: 12110}
     - Class: 114
-      Script: {instanceID: 12152}
+      Script: {instanceID: 12116}
     - Class: 114
-      Script: {instanceID: 20846}
+      Script: {instanceID: 12128}
     - Class: 114
-      Script: {instanceID: 20856}
+      Script: {instanceID: 12140}
     - Class: 114
-      Script: {instanceID: 38074}
+      Script: {instanceID: 12158}
+    - Class: 114
+      Script: {instanceID: 21800}
+    - Class: 114
+      Script: {instanceID: 21810}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -291,21 +289,21 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9658}
-    - Class: 114
       Script: {instanceID: 9660}
     - Class: 114
-      Script: {instanceID: 9666}
+      Script: {instanceID: 9662}
     - Class: 114
-      Script: {instanceID: 9672}
+      Script: {instanceID: 9668}
     - Class: 114
-      Script: {instanceID: 9680}
+      Script: {instanceID: 9674}
     - Class: 114
-      Script: {instanceID: 9716}
+      Script: {instanceID: 9682}
     - Class: 114
       Script: {instanceID: 9718}
     - Class: 114
-      Script: {instanceID: 10172}
+      Script: {instanceID: 9720}
+    - Class: 114
+      Script: {instanceID: 10174}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -459,6 +457,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LifeScript
+  - hash:
+      serializedVersion: 2
+      Hash: 7d428ac51d103a4b59900b9dcd186fa7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DoorSortie3Script
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1475,6 +1479,12 @@ ScriptsOnlyBuild:
     className: OnScreenButton
   - hash:
       serializedVersion: 2
+      Hash: b7957380417f9c02f911ce15f3bda9ee
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MessageSortieScript
+  - hash:
+      serializedVersion: 2
       Hash: 2294ba4929e515b4b46046eff1f6b057
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.Effects
@@ -1913,6 +1923,12 @@ ScriptsOnlyBuild:
     className: InputSystemObject
   - hash:
       serializedVersion: 2
+      Hash: 7b33d7aa2d130112fc1359b0fe0c8917
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AffichageBubbleScript
+  - hash:
+      serializedVersion: 2
       Hash: 562ca269d5a103bbf4e1f2e46a1dcb7e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1941,12 +1957,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Cube
-  - hash:
-      serializedVersion: 2
-      Hash: 7b33d7aa2d130112fc1359b0fe0c8917
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: AffichageBubbleScript
   platform: 13
   scenePathNames:
   - Assets/Scenes/Menu.unity

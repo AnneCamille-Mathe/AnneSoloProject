@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MessageSortieScript : MonoBehaviour
 {
+    //TODO - Modification victoire : voir TriggerClefScript Folder Clef_Sortie
     //Variables
     public GameObject panelText;
     

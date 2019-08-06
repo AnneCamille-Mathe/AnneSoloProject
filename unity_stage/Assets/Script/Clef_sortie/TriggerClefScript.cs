@@ -36,7 +36,7 @@ public class TriggerClefScript : MonoBehaviour
     {
         GameObject.Find("Canvas_Clef").GetComponent<ClefScript>().LockedDoor = false;
         GameObject.Find("Canvas_Clef").GetComponent<ClefScript>().PanelText.SetActive(true);
-        GameObject.Find("Canvas_Clef/Panel_Clef/Text_Clef").GetComponent<Text>().text = "Allez a gauche";
+        GameObject.Find("Canvas_Clef/Panel_Clef/Text_Clef").GetComponent<Text>().text = "Porte deverouillee";
         yield return new WaitForSeconds(0.5f);
     }
 
