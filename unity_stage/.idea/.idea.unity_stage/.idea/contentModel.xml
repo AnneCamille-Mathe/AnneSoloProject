@@ -126,6 +126,10 @@
             <e p="DetectionECVR.cs" t="Include" />
             <e p="Detectionprojet1.cs" t="Include" />
           </e>
+          <e p="SortieRoom" t="Include">
+            <e p="DoorSortie3Script.cs" t="Include" />
+            <e p="MessageSortieScript.cs" t="Include" />
+          </e>
           <e p="Tourelle" t="Include">
             <e p="ProjectilScript.cs" t="Include" />
             <e p="ShootScript.cs" t="Include" />
