@@ -109,6 +109,7 @@
             <e p="EscapeVRDoor.cs" t="Include" />
           </e>
           <e p="Fleches" t="Include">
+            <e p="FlecheMurScript.cs" t="Include" />
             <e p="FlecheScriptClefVR.cs" t="Include" />
             <e p="FlecheScriptCode.cs" t="Include" />
             <e p="FlecheScriptPorteMur.cs" t="Include" />

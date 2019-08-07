@@ -28,7 +28,7 @@ public class FlecheScriptClefVR : MonoBehaviour
     {
         if (code_trouve && other.gameObject.tag == "Player")
         {
-            this.flecheBubbleVR.SetActive(true);
+           this.flecheBubbleVR.SetActive(true);
         }
     }
 

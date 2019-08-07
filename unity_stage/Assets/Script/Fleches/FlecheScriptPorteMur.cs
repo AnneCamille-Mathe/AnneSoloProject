@@ -18,6 +18,9 @@ public class FlecheScriptPorteMur : MonoBehaviour
     {
     }
 
+    //L'utilisateur ne doit passer qu'une fois dans le trigger
+    
+ 
     private void OnTriggerEnter(Collider other)
     {
         if (this.compt ==0 && GameObject.Find("BubbleVR/key") == null && other.gameObject.tag == "Player")
