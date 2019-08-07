@@ -18,7 +18,6 @@ public class TriggerClefScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
     }
 
     private void OnTriggerEnter(Collider other)
@@ -27,9 +26,13 @@ public class TriggerClefScript : MonoBehaviour
         {
             StartCoroutine(this.GetKey());
             gameObject.SetActive(false);
-            StartCoroutine(WaitBug());
-            
+            //StartCoroutine(WaitBug());
         }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        GameObject.Find("Canvas_Clef").GetComponent<ClefScript>().PanelText.SetActive(false);
     }
 
     IEnumerator GetKey()

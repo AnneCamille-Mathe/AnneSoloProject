@@ -6,6 +6,7 @@ ScriptsOnlyBuild:
     - UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController
     Assembly-CSharp.dll:
     - AffichageBubbleScript
+    - AffichageProjetsScriptEntree
     - AffichageVRScript
     - ClefScript
     - ClefVRScript
@@ -245,9 +246,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12164}
     - Class: 114
-      Script: {instanceID: 22502}
+      Script: {instanceID: 22788}
     - Class: 114
-      Script: {instanceID: 22512}
+      Script: {instanceID: 22798}
+    - Class: 114
+      Script: {instanceID: 87264}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -1984,6 +1987,18 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Cube
+  - hash:
+      serializedVersion: 2
+      Hash: 4790a8a4970cf89fe89eba52e6105e36
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AffichageProjetsScriptEntree
+  - hash:
+      serializedVersion: 2
+      Hash: b7957380417f9c02f911ce15f3bda9ee
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AffichageProjetsScriptStortie
   platform: 13
   scenePathNames:
   - Assets/Scenes/Menu.unity

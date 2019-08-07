@@ -109,7 +109,6 @@
             <e p="EscapeVRDoor.cs" t="Include" />
           </e>
           <e p="Fleches" t="Include">
-            <e p="FlecheMurScript.cs" t="Include" />
             <e p="FlecheScriptClefVR.cs" t="Include" />
             <e p="FlecheScriptCode.cs" t="Include" />
             <e p="FlecheScriptPorteMur.cs" t="Include" />
@@ -127,6 +126,10 @@
             <e p="GoblinScript.cs" t="Include" />
             <e p="MovePandaScript.cs" t="Include" />
             <e p="PandaScript.cs" t="Include" />
+          </e>
+          <e p="Panel Affichage projets" t="Include">
+            <e p="AffichageProjetsScriptEntree.cs" t="Include" />
+            <e p="AffichageProjetsScriptStortie.cs" t="Include" />
           </e>
           <e p="Presentation projets" t="Include">
             <e p="DetectionECVR.cs" t="Include" />
