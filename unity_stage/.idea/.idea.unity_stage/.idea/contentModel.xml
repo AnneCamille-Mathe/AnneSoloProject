@@ -109,11 +109,9 @@
             <e p="EscapeVRDoor.cs" t="Include" />
           </e>
           <e p="Fleches" t="Include">
-            <e p="Fleche1Script.cs" t="Include" />
-            <e p="Fleche2Script.cs" t="Include" />
-            <e p="Fleche3Script.cs" t="Include" />
-            <e p="Fleche4Script.cs" t="Include" />
-            <e p="Fleche5Script.cs" t="Include" />
+            <e p="FlecheScriptClefVR.cs" t="Include" />
+            <e p="FlecheScriptCode.cs" t="Include" />
+            <e p="FlecheScriptPorteMur.cs" t="Include" />
           </e>
           <e p="Gestion des menus" t="Include">
             <e p="GameOverScript.cs" t="Include" />
