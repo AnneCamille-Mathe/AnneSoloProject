@@ -1,13 +1,12 @@
 ScriptsOnlyBuild:
   usedScripts:
-    Assembly-CSharp-Editor.dll:
-    - ReadmeEditor
     Assembly-CSharp-firstpass.dll:
     - UnityStandardAssets.Characters.FirstPerson.FirstPersonController
     - UnityStandardAssets.Characters.FirstPerson.HeadBob
     - UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController
     Assembly-CSharp.dll:
     - AffichageBubbleScript
+    - AffichageHermesScript
     - AffichageProjetsScriptEntree
     - AffichageVRScript
     - ClefScript
@@ -27,6 +26,7 @@ ScriptsOnlyBuild:
     - FlecheScriptCode
     - FlecheScriptPorteMur
     - GameOverScript
+    - GetKeyScript
     - GoblinScript
     - Goblin_ro_ctrl
     - LifeScript
@@ -34,11 +34,11 @@ ScriptsOnlyBuild:
     - MenuScript
     - MessageSortieScript
     - MovePandaScript
+    - OuvertureCoffreScript
     - PandaScript
     - PanelScript
     - PauseButton
     - ProjectilScript
-    - Readme
     - RotationClefArgent
     - RotationClefScript
     - ScriptFallDown
@@ -57,6 +57,14 @@ ScriptsOnlyBuild:
     Unity.ProBuilder.dll:
     - UnityEngine.ProBuilder.PolyShape
     - UnityEngine.ProBuilder.ProBuilderMesh
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -231,27 +239,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11842}
     - Class: 114
-      Script: {instanceID: 11926}
+      Script: {instanceID: 11912}
     - Class: 114
-      Script: {instanceID: 11982}
+      Script: {instanceID: 11928}
     - Class: 114
-      Script: {instanceID: 12014}
+      Script: {instanceID: 11984}
     - Class: 114
-      Script: {instanceID: 12118}
+      Script: {instanceID: 12016}
     - Class: 114
-      Script: {instanceID: 12120}
+      Script: {instanceID: 12056}
+    - Class: 114
+      Script: {instanceID: 12100}
+    - Class: 114
+      Script: {instanceID: 12124}
     - Class: 114
       Script: {instanceID: 12126}
     - Class: 114
-      Script: {instanceID: 12138}
+      Script: {instanceID: 12132}
     - Class: 114
-      Script: {instanceID: 12150}
+      Script: {instanceID: 12144}
     - Class: 114
-      Script: {instanceID: 12168}
+      Script: {instanceID: 12156}
     - Class: 114
-      Script: {instanceID: 24094}
+      Script: {instanceID: 12174}
     - Class: 114
-      Script: {instanceID: 24104}
+      Script: {instanceID: 24324}
+    - Class: 114
+      Script: {instanceID: 24336}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -1888,6 +1902,12 @@ ScriptsOnlyBuild:
     className: WaterTile
   - hash:
       serializedVersion: 2
+      Hash: 70294d7ebe47b6114996b9301e43d772
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GetKeyScript
+  - hash:
+      serializedVersion: 2
       Hash: 562ca269d5a103bbf4e1f2e46a1dcb7e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1930,6 +1950,12 @@ ScriptsOnlyBuild:
     className: TMP_SubMesh
   - hash:
       serializedVersion: 2
+      Hash: b7957380417f9c02f911ce15f3bda9ee
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AffichageHermesScript
+  - hash:
+      serializedVersion: 2
       Hash: 9dac16f3efc511835ac976dfae55f580
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1940,6 +1966,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71002abc8d0d58da535b85e2d917da22
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OuvertureCoffreScript
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f

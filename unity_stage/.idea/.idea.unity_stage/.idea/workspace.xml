@@ -10,20 +10,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Script/CodageFinNiveau/GetKeyScript.cs">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Script/SortieRoom/MessageSortieScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+            <state relative-caret-position="360">
+              <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
               <folding>
-                <marker date="1565257248103" expanded="true" signature="6:92" ph="..." />
-                <marker date="1565257248103" expanded="true" signature="135:1470" ph="{...}" />
-                <marker date="1565257248103" expanded="true" signature="438:459" ph="{...}" />
-                <marker date="1565257248103" expanded="true" signature="517:538" ph="{...}" />
-                <marker date="1565257248103" expanded="true" signature="587:1296" ph="{...}" />
-                <marker date="1565257248103" expanded="true" signature="639:1290" ph="{...}" />
-                <marker date="1565257248103" expanded="true" signature="742:1121" ph="{...}" />
-                <marker date="1565257248103" expanded="true" signature="1370:1468" ph="{...}" />
+                <marker date="1565268183147" expanded="true" signature="6:78" ph="..." />
+                <marker date="1565268183147" expanded="true" signature="128:641" ph="{...}" />
+                <marker date="1565268183147" expanded="true" signature="135:225" ph="/* TODO - Modification victoire : voir TriggerClefScript Folder Clef_Sortie ... */" />
+                <marker date="1565268183147" expanded="true" signature="333:354" ph="{...}" />
+                <marker date="1565268183147" expanded="true" signature="412:433" ph="{...}" />
+                <marker date="1565268183147" expanded="true" signature="486:538" ph="{...}" />
+                <marker date="1565268183147" expanded="true" signature="586:639" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -32,17 +31,55 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Script/SortieRoom/DoorSortie3Script.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            <state relative-caret-position="289">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
-                <marker date="1565081134813" expanded="true" signature="6:92" ph="..." />
-                <marker date="1565081134813" expanded="true" signature="140:812" ph="{...}" />
-                <marker date="1565081134813" expanded="true" signature="342:400" ph="{...}" />
-                <marker date="1565081134813" expanded="true" signature="458:479" ph="{...}" />
-                <marker date="1565081134813" expanded="true" signature="528:637" ph="{...}" />
-                <marker date="1565081134813" expanded="true" signature="565:631" ph="{...}" />
-                <marker date="1565081134813" expanded="true" signature="685:731" ph="{...}" />
-                <marker date="1565081134813" expanded="true" signature="763:810" ph="{...}" />
+                <marker date="1565267636765" expanded="true" signature="6:92" ph="..." />
+                <marker date="1565267636765" expanded="true" signature="140:878" ph="{...}" />
+                <marker date="1565267636765" expanded="true" signature="295:353" ph="{...}" />
+                <marker date="1565267636765" expanded="true" signature="411:432" ph="{...}" />
+                <marker date="1565267636765" expanded="true" signature="481:703" ph="{...}" />
+                <marker date="1565267636765" expanded="true" signature="631:697" ph="{...}" />
+                <marker date="1565267636765" expanded="true" signature="751:797" ph="{...}" />
+                <marker date="1565267636765" expanded="true" signature="829:876" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Script/Clef_sortie/TriggerClefScript.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+              <folding>
+                <marker date="1565269463409" expanded="false" signature="6:114" ph="..." />
+                <marker date="1565269463409" expanded="true" signature="163:1371" ph="{...}" />
+                <marker date="1565269463409" expanded="true" signature="174:335" ph="/* Variables ... */" />
+                <marker date="1565269463409" expanded="true" signature="352:412" ph="{...}" />
+                <marker date="1565269463409" expanded="true" signature="470:531" ph="{...}" />
+                <marker date="1565269463409" expanded="true" signature="580:791" ph="{...}" />
+                <marker date="1565269463409" expanded="true" signature="681:785" ph="{...}" />
+                <marker date="1565269463409" expanded="true" signature="839:994" ph="{...}" />
+                <marker date="1565269463409" expanded="true" signature="1020:1368" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Script/Clef_sortie/DoorScript.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1564478841853" expanded="true" signature="6:92" ph="..." />
+                <marker date="1564478841853" expanded="true" signature="133:852" ph="{...}" />
+                <marker date="1564478841853" expanded="true" signature="246:304" ph="{...}" />
+                <marker date="1564478841853" expanded="true" signature="362:383" ph="{...}" />
+                <marker date="1564478841853" expanded="true" signature="432:593" ph="{...}" />
+                <marker date="1564478841853" expanded="true" signature="521:587" ph="{...}" />
+                <marker date="1564478841853" expanded="true" signature="641:771" ph="{...}" />
+                <marker date="1564478841853" expanded="true" signature="803:850" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -86,6 +123,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/CodageFinNiveau/GetKeyScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Boutons/PauseButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/CodageFinNiveau/OpenDoorSortieScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Empilement/Cube.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Empilement/CombinaisonScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Fleches/FlecheScriptPorteMur.cs" root0="FORCE_HIGHLIGHTING" />
@@ -111,7 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Script/LifeScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Clef/Rotation.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Panda/MovePandaScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Clef/ExitScript.cs" />
@@ -143,8 +180,6 @@
         <option value="$PROJECT_DIR$/Assets/Script/Empilement/CombinaisonScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Clef_VR/DoorVRScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Escape_ClefVR/EscapeVRDoor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/SortieRoom/DoorSortie3Script.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/SortieRoom/MessageSortieScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Fleches/Fleche2Script.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Fleches/Fleche3Script.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Fleches/Fleche6Script.cs" />
@@ -159,9 +194,12 @@
         <option value="$PROJECT_DIR$/Assets/Script/Panel Affichage projets/AffichageProjetsScriptStortie.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Panel Affichage projets/AffichageProjetsScriptEntree.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Panel Affichage projets/AffichageHermesScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Clef_sortie/TriggerClefScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/CodageFinNiveau/OuvertureCoffreScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/CodageFinNiveau/GetKeyScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/CodageFinNiveau/OpenDoorSortieScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/SortieRoom/DoorSortie3Script.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/SortieRoom/MessageSortieScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Clef_sortie/TriggerClefScript.cs" />
       </list>
     </option>
   </component>
@@ -237,12 +275,12 @@
       <workItem from="1564564831948" duration="26012000" />
       <workItem from="1564738899240" duration="6903000" />
       <workItem from="1564989374835" duration="21225000" />
-      <workItem from="1565164514560" duration="14647000" />
+      <workItem from="1565164514560" duration="19826000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136482000" />
+    <option name="totallyTimeSpent" value="141661000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -323,28 +361,23 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Script/CodageFinNiveau/OpenDoorSortieScript.cs</url>
+          <line>16</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Script/CodageFinNiveau/OpenDoorSortieScript.cs" initialLine="14">
+            <startOffsets>
+              <option value="322" />
+            </startOffsets>
+            <endOffsets>
+              <option value="323" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Script/Panda/GoblinScript.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-273">
-          <folding>
-            <marker date="1564488956044" expanded="true" signature="6:92" ph="..." />
-            <marker date="1564488956044" expanded="true" signature="135:1346" ph="{...}" />
-            <marker date="1564488956044" expanded="true" signature="364:385" ph="{...}" />
-            <marker date="1564488956044" expanded="true" signature="443:778" ph="{...}" />
-            <marker date="1564488956044" expanded="true" signature="595:772" ph="{...}" />
-            <marker date="1564488956044" expanded="true" signature="827:1066" ph="{...}" />
-            <marker date="1564488956044" expanded="true" signature="879:984" ph="{...}" />
-            <marker date="1564488956044" expanded="true" signature="997:1060" ph="{...}" />
-            <marker date="1564488956044" expanded="true" signature="1097:1200" ph="{...}" />
-            <marker date="1564488956044" expanded="true" signature="1236:1344" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/Panda/PandaScript.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -578,52 +611,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/Clef_VR/AffichageBubbleScript.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
-          <folding>
-            <marker date="1565006765538" expanded="false" signature="6:78" ph="..." />
-            <marker date="1565006765538" expanded="true" signature="130:630" ph="{...}" />
-            <marker date="1565006765538" expanded="true" signature="261:282" ph="{...}" />
-            <marker date="1565006765538" expanded="true" signature="340:361" ph="{...}" />
-            <marker date="1565006765538" expanded="true" signature="414:531" ph="{...}" />
-            <marker date="1565006765538" expanded="true" signature="466:525" ph="{...}" />
-            <marker date="1565006765538" expanded="true" signature="579:627" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/Empilement/PanelScript.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="37" column="6" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="37" selection-end-column="6" />
-          <folding>
-            <marker date="1564651762684" expanded="true" signature="6:92" ph="..." />
-            <marker date="1564651762684" expanded="true" signature="134:934" ph="{...}" />
-            <marker date="1564651762684" expanded="true" signature="283:435" ph="{...}" />
-            <marker date="1564651762684" expanded="true" signature="493:645" ph="{...}" />
-            <marker date="1564651762684" expanded="true" signature="694:835" ph="{...}" />
-            <marker date="1564651762684" expanded="true" signature="770:829" ph="{...}" />
-            <marker date="1564651762684" expanded="true" signature="883:931" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/Clef_VR/ClefVRScript.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1564998905980" expanded="false" signature="6:92" ph="..." />
-            <marker date="1564998905980" expanded="true" signature="135:954" ph="{...}" />
-            <marker date="1564998905980" expanded="true" signature="290:333" ph="{...}" />
-            <marker date="1564998905980" expanded="true" signature="391:412" ph="{...}" />
-            <marker date="1564998905980" expanded="true" signature="465:938" ph="{...}" />
-            <marker date="1564998905980" expanded="true" signature="517:932" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/Empilement/CombinaisonScript.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
@@ -651,22 +638,6 @@
             <marker date="1564992560800" expanded="true" signature="541:725" ph="{...}" />
             <marker date="1564992560800" expanded="true" signature="655:719" ph="{...}" />
             <marker date="1564992560800" expanded="true" signature="773:826" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/SortieRoom/MessageSortieScript.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="78" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
-          <folding>
-            <marker date="1565084784460" expanded="false" signature="6:78" ph="..." />
-            <marker date="1565084784460" expanded="true" signature="128:641" ph="{...}" />
-            <marker date="1565084784460" expanded="true" signature="135:225" ph="/* TODO - Modification victoire : voir TriggerClefScript Folder Clef_Sortie ... */" />
-            <marker date="1565084784460" expanded="true" signature="333:354" ph="{...}" />
-            <marker date="1565084784460" expanded="true" signature="412:433" ph="{...}" />
-            <marker date="1565084784460" expanded="true" signature="486:538" ph="{...}" />
-            <marker date="1565084784460" expanded="true" signature="586:639" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -894,58 +865,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/Clef_sortie/TriggerClefScript.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-          <folding>
-            <marker date="1565173326720" expanded="false" signature="6:114" ph="..." />
-            <marker date="1565173326720" expanded="true" signature="163:1295" ph="{...}" />
-            <marker date="1565173326720" expanded="true" signature="244:265" ph="{...}" />
-            <marker date="1565173326720" expanded="true" signature="323:335" ph="{...}" />
-            <marker date="1565173326720" expanded="true" signature="384:587" ph="{...}" />
-            <marker date="1565173326720" expanded="true" signature="436:581" ph="{...}" />
-            <marker date="1565173326720" expanded="true" signature="635:741" ph="{...}" />
-            <marker date="1565173326720" expanded="true" signature="767:1115" ph="{...}" />
-            <marker date="1565173326720" expanded="true" signature="1142:1293" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/SortieRoom/DoorSortie3Script.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <marker date="1565081134813" expanded="true" signature="6:92" ph="..." />
-            <marker date="1565081134813" expanded="true" signature="140:812" ph="{...}" />
-            <marker date="1565081134813" expanded="true" signature="342:400" ph="{...}" />
-            <marker date="1565081134813" expanded="true" signature="458:479" ph="{...}" />
-            <marker date="1565081134813" expanded="true" signature="528:637" ph="{...}" />
-            <marker date="1565081134813" expanded="true" signature="565:631" ph="{...}" />
-            <marker date="1565081134813" expanded="true" signature="685:731" ph="{...}" />
-            <marker date="1565081134813" expanded="true" signature="763:810" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/Clef_sortie/DoorScript.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-          <folding>
-            <marker date="1564478841853" expanded="true" signature="6:92" ph="..." />
-            <marker date="1564478841853" expanded="true" signature="133:852" ph="{...}" />
-            <marker date="1564478841853" expanded="true" signature="246:304" ph="{...}" />
-            <marker date="1564478841853" expanded="true" signature="362:383" ph="{...}" />
-            <marker date="1564478841853" expanded="true" signature="432:593" ph="{...}" />
-            <marker date="1564478841853" expanded="true" signature="521:587" ph="{...}" />
-            <marker date="1564478841853" expanded="true" signature="641:771" ph="{...}" />
-            <marker date="1564478841853" expanded="true" signature="803:850" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/CodageFinNiveau/OuvertureCoffreScript.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
@@ -963,10 +882,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/Clef_VR/ClefVRScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1564998905980" expanded="false" signature="6:92" ph="..." />
+            <marker date="1564998905980" expanded="true" signature="135:954" ph="{...}" />
+            <marker date="1564998905980" expanded="true" signature="290:333" ph="{...}" />
+            <marker date="1564998905980" expanded="true" signature="391:412" ph="{...}" />
+            <marker date="1564998905980" expanded="true" signature="465:938" ph="{...}" />
+            <marker date="1564998905980" expanded="true" signature="517:932" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/Clef_VR/AffichageBubbleScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1565006765538" expanded="false" signature="6:78" ph="..." />
+            <marker date="1565006765538" expanded="true" signature="130:630" ph="{...}" />
+            <marker date="1565006765538" expanded="true" signature="261:282" ph="{...}" />
+            <marker date="1565006765538" expanded="true" signature="340:361" ph="{...}" />
+            <marker date="1565006765538" expanded="true" signature="414:531" ph="{...}" />
+            <marker date="1565006765538" expanded="true" signature="466:525" ph="{...}" />
+            <marker date="1565006765538" expanded="true" signature="579:627" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/CodageFinNiveau/OpenDoorSortieScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <marker date="1565267168960" expanded="true" signature="6:92" ph="..." />
+            <marker date="1565267168960" expanded="true" signature="143:754" ph="{...}" />
+            <marker date="1565267168960" expanded="true" signature="264:323" ph="{...}" />
+            <marker date="1565267168960" expanded="true" signature="381:402" ph="{...}" />
+            <marker date="1565267168960" expanded="true" signature="451:575" ph="{...}" />
+            <marker date="1565267168960" expanded="true" signature="503:569" ph="{...}" />
+            <marker date="1565267168960" expanded="true" signature="627:673" ph="{...}" />
+            <marker date="1565267168960" expanded="true" signature="705:752" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/CodageFinNiveau/GetKeyScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+        <state relative-caret-position="180">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
           <folding>
             <marker date="1565257248103" expanded="true" signature="6:92" ph="..." />
             <marker date="1565257248103" expanded="true" signature="135:1470" ph="{...}" />
@@ -976,6 +941,89 @@
             <marker date="1565257248103" expanded="true" signature="639:1290" ph="{...}" />
             <marker date="1565257248103" expanded="true" signature="742:1121" ph="{...}" />
             <marker date="1565257248103" expanded="true" signature="1370:1468" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/SortieRoom/MessageSortieScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+          <folding>
+            <marker date="1565268183147" expanded="true" signature="6:78" ph="..." />
+            <marker date="1565268183147" expanded="true" signature="128:641" ph="{...}" />
+            <marker date="1565268183147" expanded="true" signature="135:225" ph="/* TODO - Modification victoire : voir TriggerClefScript Folder Clef_Sortie ... */" />
+            <marker date="1565268183147" expanded="true" signature="333:354" ph="{...}" />
+            <marker date="1565268183147" expanded="true" signature="412:433" ph="{...}" />
+            <marker date="1565268183147" expanded="true" signature="486:538" ph="{...}" />
+            <marker date="1565268183147" expanded="true" signature="586:639" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/Empilement/PanelScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <marker date="1564651762684" expanded="true" signature="6:92" ph="..." />
+            <marker date="1564651762684" expanded="true" signature="134:934" ph="{...}" />
+            <marker date="1564651762684" expanded="true" signature="283:435" ph="{...}" />
+            <marker date="1564651762684" expanded="true" signature="493:645" ph="{...}" />
+            <marker date="1564651762684" expanded="true" signature="694:835" ph="{...}" />
+            <marker date="1564651762684" expanded="true" signature="770:829" ph="{...}" />
+            <marker date="1564651762684" expanded="true" signature="883:931" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/SortieRoom/DoorSortie3Script.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <marker date="1565267636765" expanded="true" signature="6:92" ph="..." />
+            <marker date="1565267636765" expanded="true" signature="140:878" ph="{...}" />
+            <marker date="1565267636765" expanded="true" signature="295:353" ph="{...}" />
+            <marker date="1565267636765" expanded="true" signature="411:432" ph="{...}" />
+            <marker date="1565267636765" expanded="true" signature="481:703" ph="{...}" />
+            <marker date="1565267636765" expanded="true" signature="631:697" ph="{...}" />
+            <marker date="1565267636765" expanded="true" signature="751:797" ph="{...}" />
+            <marker date="1565267636765" expanded="true" signature="829:876" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/Clef_sortie/DoorScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1564478841853" expanded="true" signature="6:92" ph="..." />
+            <marker date="1564478841853" expanded="true" signature="133:852" ph="{...}" />
+            <marker date="1564478841853" expanded="true" signature="246:304" ph="{...}" />
+            <marker date="1564478841853" expanded="true" signature="362:383" ph="{...}" />
+            <marker date="1564478841853" expanded="true" signature="432:593" ph="{...}" />
+            <marker date="1564478841853" expanded="true" signature="521:587" ph="{...}" />
+            <marker date="1564478841853" expanded="true" signature="641:771" ph="{...}" />
+            <marker date="1564478841853" expanded="true" signature="803:850" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/Clef_sortie/TriggerClefScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+          <folding>
+            <marker date="1565269463409" expanded="false" signature="6:114" ph="..." />
+            <marker date="1565269463409" expanded="true" signature="163:1371" ph="{...}" />
+            <marker date="1565269463409" expanded="true" signature="174:335" ph="/* Variables ... */" />
+            <marker date="1565269463409" expanded="true" signature="352:412" ph="{...}" />
+            <marker date="1565269463409" expanded="true" signature="470:531" ph="{...}" />
+            <marker date="1565269463409" expanded="true" signature="580:791" ph="{...}" />
+            <marker date="1565269463409" expanded="true" signature="681:785" ph="{...}" />
+            <marker date="1565269463409" expanded="true" signature="839:994" ph="{...}" />
+            <marker date="1565269463409" expanded="true" signature="1020:1368" ph="{...}" />
           </folding>
         </state>
       </provider>

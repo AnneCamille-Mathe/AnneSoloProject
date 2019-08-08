@@ -8,30 +8,38 @@ using UnityEngine.UI;
 public class TriggerClefScript : MonoBehaviour
 {
    
+    //Variables
+    //Bug affichage du message VR  : désactivation 
+    //public GameObject PanelTextVRBug;
     
     // Start is called before the first frame update
     void Start()
     {
-        
+      //  this.PanelTextVRBug.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
+        //this.PanelTextVRBug.SetActive(false);
+
     }
 
     private void OnTriggerEnter(Collider other)
     {
+        //this.PanelTextVRBug.SetActive(false);
+
         if (other.gameObject.tag == "Player")
         {
             StartCoroutine(this.GetKey());
             gameObject.SetActive(false);
-            //StartCoroutine(WaitBug());
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
+        //this.PanelTextVRBug.SetActive(false);
+
         GameObject.Find("Canvas_Clef").GetComponent<ClefScript>().PanelText.SetActive(false);
     }
 
@@ -43,11 +51,6 @@ public class TriggerClefScript : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
     }
 
-    IEnumerator WaitBug()
-    {
-        yield return new WaitForSeconds(5f);
-        GameObject.Find("Canvas_Clef").GetComponent<ClefScript>().PanelText.SetActive(false);
-    }
 }
 
 

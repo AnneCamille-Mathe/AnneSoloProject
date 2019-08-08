@@ -8,8 +8,7 @@ public class DoorSortie3Script : MonoBehaviour
     
     //Variables
     private Animator anim;
-    //TODO - MODIFIER CETTE VARIABLE !
-    public bool coffreTrouve = false;
+    public bool coffreTrouve;
     
     // Start is called before the first frame update
     void Start()
@@ -25,6 +24,7 @@ public class DoorSortie3Script : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        this.coffreTrouve = GameObject.Find("SalleSortie/keySortie").GetComponent<GetKeyScript>().ClefOuverture;
         if (this.coffreTrouve)
         {
             this.anim.SetTrigger("OpenDoor");
