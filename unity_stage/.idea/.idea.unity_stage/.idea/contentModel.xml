@@ -99,6 +99,10 @@
             <e p="DoorVRScript.cs" t="Include" />
             <e p="RotationClefArgent.cs" t="Include" />
           </e>
+          <e p="CodageFinNiveau" t="Include">
+            <e p="GetKeyScript.cs" t="Include" />
+            <e p="OuvertureCoffreScript.cs" t="Include" />
+          </e>
           <e p="Empilement" t="Include">
             <e p="CombinaisonScript.cs" t="Include" />
             <e p="Cube.cs" t="Include" />
@@ -128,6 +132,7 @@
             <e p="PandaScript.cs" t="Include" />
           </e>
           <e p="Panel Affichage projets" t="Include">
+            <e p="AffichageHermesScript.cs" t="Include" />
             <e p="AffichageProjetsScriptEntree.cs" t="Include" />
             <e p="AffichageProjetsScriptStortie.cs" t="Include" />
           </e>
