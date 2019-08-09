@@ -9,6 +9,7 @@ ScriptsOnlyBuild:
     - AffichageHermesScript
     - AffichageProjetsScriptEntree
     - AffichageVRScript
+    - BugSortezScript
     - ClefScript
     - ClefVRScript
     - CombinaisonScript
@@ -205,63 +206,65 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10436}
     - Class: 114
-      Script: {instanceID: 10630}
+      Script: {instanceID: 10596}
     - Class: 114
-      Script: {instanceID: 10636}
+      Script: {instanceID: 10632}
     - Class: 114
-      Script: {instanceID: 10654}
+      Script: {instanceID: 10638}
     - Class: 114
-      Script: {instanceID: 10766}
+      Script: {instanceID: 10656}
     - Class: 114
-      Script: {instanceID: 10770}
+      Script: {instanceID: 10768}
     - Class: 114
-      Script: {instanceID: 10848}
+      Script: {instanceID: 10772}
     - Class: 114
-      Script: {instanceID: 10870}
+      Script: {instanceID: 10850}
     - Class: 114
-      Script: {instanceID: 10950}
+      Script: {instanceID: 10872}
     - Class: 114
-      Script: {instanceID: 10988}
+      Script: {instanceID: 10952}
     - Class: 114
-      Script: {instanceID: 11206}
+      Script: {instanceID: 10990}
     - Class: 114
-      Script: {instanceID: 11290}
+      Script: {instanceID: 11208}
     - Class: 114
-      Script: {instanceID: 11524}
+      Script: {instanceID: 11292}
     - Class: 114
-      Script: {instanceID: 11778}
+      Script: {instanceID: 11526}
     - Class: 114
-      Script: {instanceID: 11832}
+      Script: {instanceID: 11780}
     - Class: 114
-      Script: {instanceID: 11844}
+      Script: {instanceID: 11834}
     - Class: 114
-      Script: {instanceID: 11914}
+      Script: {instanceID: 11846}
     - Class: 114
-      Script: {instanceID: 11930}
+      Script: {instanceID: 11916}
     - Class: 114
-      Script: {instanceID: 11986}
+      Script: {instanceID: 11932}
     - Class: 114
-      Script: {instanceID: 12018}
+      Script: {instanceID: 11988}
     - Class: 114
-      Script: {instanceID: 12058}
+      Script: {instanceID: 12020}
     - Class: 114
-      Script: {instanceID: 12102}
+      Script: {instanceID: 12060}
     - Class: 114
-      Script: {instanceID: 12126}
+      Script: {instanceID: 12104}
     - Class: 114
       Script: {instanceID: 12128}
     - Class: 114
-      Script: {instanceID: 12134}
+      Script: {instanceID: 12130}
     - Class: 114
-      Script: {instanceID: 12146}
+      Script: {instanceID: 12136}
     - Class: 114
-      Script: {instanceID: 12158}
+      Script: {instanceID: 12148}
     - Class: 114
-      Script: {instanceID: 12176}
+      Script: {instanceID: 12160}
     - Class: 114
-      Script: {instanceID: 24360}
+      Script: {instanceID: 12178}
     - Class: 114
-      Script: {instanceID: 24372}
+      Script: {instanceID: 24380}
+    - Class: 114
+      Script: {instanceID: 24392}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -1310,6 +1313,12 @@ ScriptsOnlyBuild:
     className: TMP_Asset
   - hash:
       serializedVersion: 2
+      Hash: 7b33d7aa2d130112fc1359b0fe0c8917
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BugSortezScript
+  - hash:
+      serializedVersion: 2
       Hash: f03168bb2f3505e6cc0ba61aff5d31ab
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.Cameras
@@ -1538,7 +1547,7 @@ ScriptsOnlyBuild:
     className: OnScreenButton
   - hash:
       serializedVersion: 2
-      Hash: b7957380417f9c02f911ce15f3bda9ee
+      Hash: aff805874ba6b70736204d9db8a351e6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MessageSortieScript

@@ -13,20 +13,19 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Script/SortieRoom/MessageSortieScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="52" column="34" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
+            <state relative-caret-position="79">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
-                <marker date="1565337828414" expanded="true" signature="6:100" ph="..." />
-                <marker date="1565337828414" expanded="true" signature="150:1645" ph="{...}" />
-                <marker date="1565337828414" expanded="true" signature="362:383" ph="{...}" />
-                <marker date="1565337828414" expanded="true" signature="441:462" ph="{...}" />
-                <marker date="1565337828414" expanded="true" signature="515:997" ph="{...}" />
-                <marker date="1565337828414" expanded="true" signature="530:666" ph="/* Variable clef trouvee ... */" />
-                <marker date="1565337828414" expanded="true" signature="785:865" ph="{...}" />
-                <marker date="1565337828414" expanded="true" signature="911:991" ph="{...}" />
-                <marker date="1565337828414" expanded="true" signature="1045:1098" ph="{...}" />
-                <marker date="1565337828414" expanded="true" signature="1169:1463" ph="{...}" />
-                <marker date="1565337828414" expanded="true" signature="1544:1643" ph="{...}" />
+                <marker date="1565337929587" expanded="true" signature="6:100" ph="..." />
+                <marker date="1565337929587" expanded="true" signature="150:1611" ph="{...}" />
+                <marker date="1565337929587" expanded="true" signature="362:383" ph="{...}" />
+                <marker date="1565337929587" expanded="true" signature="441:462" ph="{...}" />
+                <marker date="1565337929587" expanded="true" signature="515:963" ph="{...}" />
+                <marker date="1565337929587" expanded="true" signature="751:831" ph="{...}" />
+                <marker date="1565337929587" expanded="true" signature="877:957" ph="{...}" />
+                <marker date="1565337929587" expanded="true" signature="1011:1064" ph="{...}" />
+                <marker date="1565337929587" expanded="true" signature="1135:1429" ph="{...}" />
+                <marker date="1565337929587" expanded="true" signature="1510:1609" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -51,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Script/Clef_sortie/TriggerClefScript.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="46" column="46" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="46" selection-end-column="46" />
+              <caret line="46" column="46" selection-start-line="44" selection-start-column="8" selection-end-line="46" selection-end-column="46" />
               <folding>
                 <marker date="1565335355313" expanded="false" signature="6:114" ph="..." />
                 <marker date="1565335355313" expanded="true" signature="163:1273" ph="{...}" />
@@ -186,7 +185,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-176" />
     <option name="y" value="222" />
     <option name="width" value="1614" />
@@ -258,12 +257,12 @@
       <workItem from="1564564831948" duration="26012000" />
       <workItem from="1564738899240" duration="6903000" />
       <workItem from="1564989374835" duration="21225000" />
-      <workItem from="1565164514560" duration="24660000" />
+      <workItem from="1565164514560" duration="25376000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146495000" />
+    <option name="totallyTimeSpent" value="147211000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -276,7 +275,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.15671162" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -979,7 +977,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Script/Clef_sortie/TriggerClefScript.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="46" column="46" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="46" selection-end-column="46" />
+          <caret line="46" column="46" selection-start-line="44" selection-start-column="8" selection-end-line="46" selection-end-column="46" />
           <folding>
             <marker date="1565335355313" expanded="false" signature="6:114" ph="..." />
             <marker date="1565335355313" expanded="true" signature="163:1273" ph="{...}" />
@@ -996,20 +994,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/SortieRoom/MessageSortieScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="52" column="34" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
+        <state relative-caret-position="79">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
-            <marker date="1565337828414" expanded="true" signature="6:100" ph="..." />
-            <marker date="1565337828414" expanded="true" signature="150:1645" ph="{...}" />
-            <marker date="1565337828414" expanded="true" signature="362:383" ph="{...}" />
-            <marker date="1565337828414" expanded="true" signature="441:462" ph="{...}" />
-            <marker date="1565337828414" expanded="true" signature="515:997" ph="{...}" />
-            <marker date="1565337828414" expanded="true" signature="530:666" ph="/* Variable clef trouvee ... */" />
-            <marker date="1565337828414" expanded="true" signature="785:865" ph="{...}" />
-            <marker date="1565337828414" expanded="true" signature="911:991" ph="{...}" />
-            <marker date="1565337828414" expanded="true" signature="1045:1098" ph="{...}" />
-            <marker date="1565337828414" expanded="true" signature="1169:1463" ph="{...}" />
-            <marker date="1565337828414" expanded="true" signature="1544:1643" ph="{...}" />
+            <marker date="1565337929587" expanded="true" signature="6:100" ph="..." />
+            <marker date="1565337929587" expanded="true" signature="150:1611" ph="{...}" />
+            <marker date="1565337929587" expanded="true" signature="362:383" ph="{...}" />
+            <marker date="1565337929587" expanded="true" signature="441:462" ph="{...}" />
+            <marker date="1565337929587" expanded="true" signature="515:963" ph="{...}" />
+            <marker date="1565337929587" expanded="true" signature="751:831" ph="{...}" />
+            <marker date="1565337929587" expanded="true" signature="877:957" ph="{...}" />
+            <marker date="1565337929587" expanded="true" signature="1011:1064" ph="{...}" />
+            <marker date="1565337929587" expanded="true" signature="1135:1429" ph="{...}" />
+            <marker date="1565337929587" expanded="true" signature="1510:1609" ph="{...}" />
           </folding>
         </state>
       </provider>
