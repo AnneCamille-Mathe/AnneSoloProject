@@ -24,6 +24,8 @@ public class DoorSortie3Script : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        //clef inactive au début
+        
         this.coffreTrouve = GameObject.Find("SalleSortie/keySortie").GetComponent<GetKeyScript>().ClefOuverture;
         if (this.coffreTrouve)
         {

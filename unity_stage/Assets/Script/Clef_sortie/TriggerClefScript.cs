@@ -27,8 +27,6 @@ public class TriggerClefScript : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        //this.PanelTextVRBug.SetActive(false);
-
         if (other.gameObject.tag == "Player")
         {
             StartCoroutine(this.GetKey());
@@ -38,8 +36,6 @@ public class TriggerClefScript : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        //this.PanelTextVRBug.SetActive(false);
-
         GameObject.Find("Canvas_Clef").GetComponent<ClefScript>().PanelText.SetActive(false);
     }
 
