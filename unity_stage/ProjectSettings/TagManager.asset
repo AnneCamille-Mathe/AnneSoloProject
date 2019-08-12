@@ -9,6 +9,7 @@ TagManager:
   - Panda
   - Goblin
   - cube1
+  - Manager
   layers:
   - Default
   - TransparentFX
