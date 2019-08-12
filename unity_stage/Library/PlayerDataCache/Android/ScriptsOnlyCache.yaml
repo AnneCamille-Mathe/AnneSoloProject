@@ -42,6 +42,7 @@ ScriptsOnlyBuild:
     - PanelScript
     - PauseButton
     - ProjectilScript
+    - Readme
     - RotationClefArgent
     - RotationClefScript
     - ScriptFallDown
@@ -60,8 +61,6 @@ ScriptsOnlyBuild:
     Unity.ProBuilder.dll:
     - UnityEngine.ProBuilder.PolyShape
     - UnityEngine.ProBuilder.ProBuilderMesh
-    UnityEditor.TestRunner.dll:
-    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -234,41 +233,41 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11526}
     - Class: 114
-      Script: {instanceID: 11780}
+      Script: {instanceID: 11692}
     - Class: 114
-      Script: {instanceID: 11834}
+      Script: {instanceID: 11782}
     - Class: 114
-      Script: {instanceID: 11846}
+      Script: {instanceID: 11836}
     - Class: 114
-      Script: {instanceID: 11916}
+      Script: {instanceID: 11848}
     - Class: 114
-      Script: {instanceID: 11932}
+      Script: {instanceID: 11918}
     - Class: 114
-      Script: {instanceID: 11988}
+      Script: {instanceID: 11934}
     - Class: 114
-      Script: {instanceID: 12020}
+      Script: {instanceID: 11990}
     - Class: 114
-      Script: {instanceID: 12060}
+      Script: {instanceID: 12022}
     - Class: 114
-      Script: {instanceID: 12104}
+      Script: {instanceID: 12062}
     - Class: 114
-      Script: {instanceID: 12128}
+      Script: {instanceID: 12106}
     - Class: 114
       Script: {instanceID: 12130}
     - Class: 114
-      Script: {instanceID: 12136}
+      Script: {instanceID: 12132}
     - Class: 114
-      Script: {instanceID: 12148}
+      Script: {instanceID: 12138}
     - Class: 114
-      Script: {instanceID: 12160}
+      Script: {instanceID: 12150}
     - Class: 114
-      Script: {instanceID: 12178}
+      Script: {instanceID: 12162}
     - Class: 114
-      Script: {instanceID: 24864}
+      Script: {instanceID: 12180}
     - Class: 114
-      Script: {instanceID: 24878}
+      Script: {instanceID: 24954}
     - Class: 114
-      Script: {instanceID: 44764}
+      Script: {instanceID: 24968}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -429,41 +428,41 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11526}
     - Class: 114
-      Script: {instanceID: 11780}
+      Script: {instanceID: 11692}
     - Class: 114
-      Script: {instanceID: 11834}
+      Script: {instanceID: 11782}
     - Class: 114
-      Script: {instanceID: 11846}
+      Script: {instanceID: 11836}
     - Class: 114
-      Script: {instanceID: 11916}
+      Script: {instanceID: 11848}
     - Class: 114
-      Script: {instanceID: 11932}
+      Script: {instanceID: 11918}
     - Class: 114
-      Script: {instanceID: 11988}
+      Script: {instanceID: 11934}
     - Class: 114
-      Script: {instanceID: 12020}
+      Script: {instanceID: 11990}
     - Class: 114
-      Script: {instanceID: 12060}
+      Script: {instanceID: 12022}
     - Class: 114
-      Script: {instanceID: 12104}
+      Script: {instanceID: 12062}
     - Class: 114
-      Script: {instanceID: 12128}
+      Script: {instanceID: 12106}
     - Class: 114
       Script: {instanceID: 12130}
     - Class: 114
-      Script: {instanceID: 12136}
+      Script: {instanceID: 12132}
     - Class: 114
-      Script: {instanceID: 12148}
+      Script: {instanceID: 12138}
     - Class: 114
-      Script: {instanceID: 12160}
+      Script: {instanceID: 12150}
     - Class: 114
-      Script: {instanceID: 12178}
+      Script: {instanceID: 12162}
     - Class: 114
-      Script: {instanceID: 24864}
+      Script: {instanceID: 12180}
     - Class: 114
-      Script: {instanceID: 24878}
+      Script: {instanceID: 24954}
     - Class: 114
-      Script: {instanceID: 44764}
+      Script: {instanceID: 24968}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -2052,6 +2051,12 @@ ScriptsOnlyBuild:
     className: Ball
   - hash:
       serializedVersion: 2
+      Hash: ba1b7c1a089bc1f5d873f9880e9784fb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EndLevelScript
+  - hash:
+      serializedVersion: 2
       Hash: a8cd58c1680eb5251e5604e560cf89e9
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.Utility
@@ -2242,12 +2247,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Cube
-  - hash:
-      serializedVersion: 2
-      Hash: ba1b7c1a089bc1f5d873f9880e9784fb
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: EndLevelScript
   platform: 13
   scenePathNames:
   - Assets/Scenes/Menu.unity
