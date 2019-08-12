@@ -101,6 +101,7 @@
             <e p="RotationClefArgent.cs" t="Include" />
           </e>
           <e p="CodageFinNiveau" t="Include">
+            <e p="EndLevelScript.cs" t="Include" />
             <e p="GetKeyScript.cs" t="Include" />
             <e p="OpenDoorSortieScript.cs" t="Include" />
             <e p="OuvertureCoffreScript.cs" t="Include" />
