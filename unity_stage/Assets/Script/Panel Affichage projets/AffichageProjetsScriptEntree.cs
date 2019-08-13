@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.UIElements;
 using UnityEngine;
+using  UnityEngine.SceneManagement;
+
 
 public class AffichageProjetsScriptEntree : MonoBehaviour
 {
@@ -10,20 +12,13 @@ public class AffichageProjetsScriptEntree : MonoBehaviour
     //Variables
     public GameObject panelText;
     public GameObject conflit;
+    public GameObject boutonPanda;
     
-    //Freezer
-    private FreezerScript Freezer;
-    public GameObject mgr;
     
     // Start is called before the first frame update
     void Start()
     {
-       //ajout
-       //GameObject mgr = GameObject.FindWithTag("Manager");
-       if (mgr)
-       {
-           Freezer = mgr.GetComponent<FreezerScript>();
-       }
+       
        
     }
 
@@ -37,23 +32,27 @@ public class AffichageProjetsScriptEntree : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
+            this.boutonPanda.SetActive(true);
             StartCoroutine(this.Zone());
             panelText.SetActive(true);
             
-            //ajout
-            Freezer.Freeze();
-            
-
             if (conflit != null)
             {
                 conflit.SetActive(false);
             }
+            
+            
         }
+        
+        
     }
+
 
     IEnumerator Zone()
     {
         yield return new WaitForSeconds(2f);
         panelText.SetActive(false);
     }
+
+    
 }
