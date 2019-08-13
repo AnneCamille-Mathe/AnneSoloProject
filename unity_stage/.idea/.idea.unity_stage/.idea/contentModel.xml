@@ -541,6 +541,7 @@
             <e p="FlecheScriptPorteMur.cs" t="Include" />
           </e>
           <e p="Gestion des menus" t="Include">
+            <e p="ChangeSceneScript.cs" t="Include" />
             <e p="FreezerScript.cs" t="Include" />
             <e p="GameOverScript.cs" t="Include" />
             <e p="ManagerScript.cs" t="Include" />

@@ -22,12 +22,17 @@ public class SimpleSaveScript : MonoBehaviour
     public void Save()
     {
         ES2.Save(player.transform.position, "position");
+
+        ES2.Save(SceneManager.GetActiveScene().name, "savedScene");
         
         ManagerScript script = managerScript.GetComponent<ManagerScript>();
         ES2.Save(script.score, "score");
         ES2.Save(script.timer, "timer");
         ES2.Save(script.premiereClef, "premiereClef");
-        SceneManager.LoadScene("Level2");
+        
+        
+        //TODO - Change place
+        //SceneManager.LoadScene("Level2");
     }
 }
  
