@@ -24,11 +24,11 @@ public class SimpleSave : MonoBehaviour
     public void Save()
     {
         ES2.Save(player.transform.position, "position");
-        ES2.Save(SceneManager.GetActiveScene().name, "savedScene");
         ManagerScript script = managerScript.GetComponent<ManagerScript>();
-        ES2.Save(script.ammo, "ammo");
-        ES2.Save(script.magazines, "magazines");
-        ES2.Save(script.brokenArm, "brokenArm");
+        ES2.Save(script.score, "score");
+        ES2.Save(script.minutes, "minutes");
+        ES2.Save(script.secondes, "secondes");
+        ES2.Save(SceneManager.GetActiveScene().name, "savedScene");
     }
 
 }

@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.UIElements;
 using UnityEngine;
-using  UnityEngine.SceneManagement;
 
 
 public class AffichageProjetsScriptEntree : MonoBehaviour
@@ -12,7 +10,6 @@ public class AffichageProjetsScriptEntree : MonoBehaviour
     //Variables
     public GameObject panelText;
     public GameObject conflit;
-    //public GameObject boutonPanda;
     
     
     // Start is called before the first frame update
@@ -32,7 +29,6 @@ public class AffichageProjetsScriptEntree : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            //this.boutonPanda.SetActive(true);
             StartCoroutine(this.Zone());
             panelText.SetActive(true);
             
@@ -40,11 +36,7 @@ public class AffichageProjetsScriptEntree : MonoBehaviour
             {
                 conflit.SetActive(false);
             }
-            
-            
         }
-        
-        
     }
 
 

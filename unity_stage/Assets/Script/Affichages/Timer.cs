@@ -10,8 +10,8 @@ public class Timer : MonoBehaviour
     //Déclaration de variables
     private float temps = 400;
     public Text timerText;
-    private int minutes;
-    private int secondes;
+    public int minutes;
+    public int secondes;
         
     // Start is called before the first frame update
     void Start()

@@ -7,8 +7,8 @@ public class SimpleLoad : MonoBehaviour
     
     //Variables
     public  GameObject managerScript;
-
     public GameObject player;
+    public bool debutJeu = true;
     
     // Start is called before the first frame update
     void Start()
@@ -23,11 +23,12 @@ public class SimpleLoad : MonoBehaviour
     }
 
     public void Load()
-    {
+    {    
         player.transform.position = ES2.Load<Vector3>("position");    
         ManagerScript script = managerScript.GetComponent<ManagerScript>();
-        script.ammo = ES2.Load<int>("ammo");
-        script.magazines = ES2.Load<int>("magazines");
-        script.brokenArm = ES2.Load<bool>("brokenArm");
+        script.score = ES2.Load<float>("score");
+        script.minutes = ES2.Load<int>("minutes");
+        script.secondes = ES2.Load<int>("secondes");
+
     }
 }

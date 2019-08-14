@@ -36,4 +36,7 @@ public class PanelScript : MonoBehaviour
     {
         PanelText.SetActive(false);
     } 
+    
+    //sets\Script\Panel Affichage projets\AffichageProjetsScriptEntree.cs(4,19): error CS0234: The type or namespace name 'UIElements' does not exist in the namespace 'UnityEditor' (are you missing an assembly reference?)
+
 }
