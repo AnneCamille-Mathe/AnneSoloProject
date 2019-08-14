@@ -541,14 +541,14 @@
             <e p="FlecheScriptPorteMur.cs" t="Include" />
           </e>
           <e p="Gestion des menus" t="Include">
-            <e p="ChangeSceneScript.cs" t="Include" />
             <e p="FreezerScript.cs" t="Include" />
             <e p="GameOverScript.cs" t="Include" />
+            <e p="GoBackScript.cs" t="Include" />
             <e p="ManagerScript.cs" t="Include" />
             <e p="MenuPause.cs" t="Include" />
             <e p="MenuScript.cs" t="Include" />
             <e p="SimpleLoad.cs" t="Include" />
-            <e p="SimpleSaveScript.cs" t="Include" />
+            <e p="SimpleSave.cs" t="Include" />
           </e>
           <e p="Gestion des Spawns" t="Include">
             <e p="ScriptFallDown.cs" t="Include" />

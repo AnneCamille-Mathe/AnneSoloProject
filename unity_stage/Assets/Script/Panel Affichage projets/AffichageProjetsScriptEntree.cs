@@ -12,7 +12,7 @@ public class AffichageProjetsScriptEntree : MonoBehaviour
     //Variables
     public GameObject panelText;
     public GameObject conflit;
-    public GameObject boutonPanda;
+    //public GameObject boutonPanda;
     
     
     // Start is called before the first frame update
@@ -32,7 +32,7 @@ public class AffichageProjetsScriptEntree : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            this.boutonPanda.SetActive(true);
+            //this.boutonPanda.SetActive(true);
             StartCoroutine(this.Zone());
             panelText.SetActive(true);
             

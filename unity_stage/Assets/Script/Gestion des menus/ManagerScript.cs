@@ -5,26 +5,23 @@ using UnityEngine;
 public class ManagerScript : MonoBehaviour
 {
     //Variables
+    //TODO - Changer pour score / timer 
 
-    public float score;
-    public string timer;
-    public bool premiereClef;
+    public int ammo;
+
+    public int magazines;
+
+    public bool brokenArm;
     
     // Start is called before the first frame update
     void Start()
     {
-        this.score = GameObject.Find("SpawnFPSController/ZoneSpawn").GetComponent<LifeScript>().Score;
-        this.timer = GameObject.Find("MainCamera").GetComponent<Timer>().timerText.text;
-        //TODO - changer cette variable
-        this.premiereClef = false;
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        this.score = GameObject.Find("SpawnFPSController/ZoneSpawn").GetComponent<LifeScript>().Score;
-        this.timer = GameObject.Find("MainCamera").GetComponent<Timer>().timerText.text;
-        //TODO - changer cette variable
-        this.premiereClef = false;
+        
     }
 }
