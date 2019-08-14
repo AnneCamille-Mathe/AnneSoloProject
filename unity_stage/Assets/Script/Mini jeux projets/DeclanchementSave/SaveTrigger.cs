@@ -10,6 +10,8 @@ public class SaveTrigger : MonoBehaviour
     //Variables
     public  GameObject managerScript;
     public GameObject player;
+    public GameObject boutonJouer;
+    public bool debutDeJeu = true;
     
     // Start is called before the first frame update
     void Start()
@@ -27,6 +29,7 @@ public class SaveTrigger : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
+            this.boutonJouer.SetActive(true);
             ES2.Save(player.transform.position, "position");
             ManagerScript script = managerScript.GetComponent<ManagerScript>();
             ES2.Save(script.score, "score");
@@ -45,5 +48,10 @@ public class SaveTrigger : MonoBehaviour
         script.minutes = ES2.Load<int>("minutes");
         script.secondes = ES2.Load<int>("secondes");
 
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        this.boutonJouer.SetActive(false);
     }
 }
