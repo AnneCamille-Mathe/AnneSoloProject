@@ -571,6 +571,7 @@
             <e p="AffichageHermesScript.cs" t="Include" />
             <e p="AffichageProjetsScriptEntree.cs" t="Include" />
             <e p="AffichageProjetsScriptStortie.cs" t="Include" />
+            <e p="ProjetSEngager.cs" t="Include" />
           </e>
           <e p="Presentation projets" t="Include">
             <e p="DetectionECVR.cs" t="Include" />

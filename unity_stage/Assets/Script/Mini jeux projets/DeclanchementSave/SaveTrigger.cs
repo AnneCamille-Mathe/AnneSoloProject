@@ -36,7 +36,7 @@ public class SaveTrigger : MonoBehaviour
             ES2.Save(script.minutes, "minutes");
             ES2.Save(script.secondes, "secondes");
             ES2.Save(SceneManager.GetActiveScene().name, "savedScene");
-            
+
         }
     }
     
