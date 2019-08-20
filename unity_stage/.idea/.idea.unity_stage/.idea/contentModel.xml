@@ -82,7 +82,21 @@
             </e>
           </e>
         </e>
+        <e p="Knight Files" t="Include">
+          <e p="Read Me.txt" t="Include" />
+        </e>
         <e p="link.xml" t="Include" />
+        <e p="Low_Swordman" t="Include">
+          <e p="Demo" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="CameraController.cs" t="Include" />
+              <e p="Demo_GM.cs" t="Include" />
+              <e p="GroundSensor.cs" t="Include" />
+              <e p="PlayerController.cs" t="Include" />
+              <e p="Swordman.cs" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Models" t="Include">
           <e p="Key" t="Include">
             <e p="readME keys.txt" t="Include" />
@@ -557,6 +571,10 @@
           <e p="Mini jeux projets" t="Include">
             <e p="DeclanchementSave" t="Include">
               <e p="SaveTrigger.cs" t="Include" />
+            </e>
+            <e p="SEngager" t="Include">
+              <e p="ControlScript.cs" t="Include" />
+              <e p="moveByTouch.cs" t="Include" />
             </e>
             <e p="Test Boutons" t="Include">
               <e p="ActivationBoutonScript.cs" t="Include" />
