@@ -25,7 +25,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -40,6 +40,25 @@
                 <marker date="1520267599000" expanded="true" signature="609:686" ph="{...}" />
                 <marker date="1520267599000" expanded="true" signature="731:812" ph="{...}" />
                 <marker date="1520267599000" expanded="true" signature="842:863" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Script/Mini jeux projets/SEngager/ControlScript.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+              <folding>
+                <marker date="1566313375353" expanded="true" signature="6:138" ph="..." />
+                <marker date="1566313375353" expanded="true" signature="182:945" ph="{...}" />
+                <marker date="1566313375353" expanded="true" signature="380:434" ph="{...}" />
+                <marker date="1566313375353" expanded="true" signature="492:672" ph="{...}" />
+                <marker date="1566313375353" expanded="true" signature="624:666" ph="{...}" />
+                <marker date="1566313375353" expanded="true" signature="704:782" ph="{...}" />
+                <marker date="1566313375353" expanded="true" signature="808:943" ph="{...}" />
+                <marker date="1566313375353" expanded="true" signature="846:937" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -282,12 +301,12 @@
       <workItem from="1566198824130" duration="6393000" />
       <workItem from="1566218478105" duration="6999000" />
       <workItem from="1566285557497" duration="6152000" />
-      <workItem from="1566292949824" duration="10777000" />
+      <workItem from="1566292949824" duration="11460000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216734000" />
+    <option name="totallyTimeSpent" value="217417000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1012,23 +1031,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/Mini jeux projets/SEngager/ControlScript.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="34" column="64" lean-forward="true" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="64" />
-          <folding>
-            <marker date="1566311829220" expanded="true" signature="6:138" ph="..." />
-            <marker date="1566311829220" expanded="true" signature="182:945" ph="{...}" />
-            <marker date="1566311829220" expanded="true" signature="380:434" ph="{...}" />
-            <marker date="1566311829220" expanded="true" signature="492:672" ph="{...}" />
-            <marker date="1566311829220" expanded="true" signature="624:666" ph="{...}" />
-            <marker date="1566311829220" expanded="true" signature="704:782" ph="{...}" />
-            <marker date="1566311829220" expanded="true" signature="808:943" ph="{...}" />
-            <marker date="1566311829220" expanded="true" signature="846:937" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/Mini jeux projets/SEngager/MoveByTouch.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1070,6 +1072,23 @@
             <marker date="1520267599000" expanded="true" signature="609:686" ph="{...}" />
             <marker date="1520267599000" expanded="true" signature="731:812" ph="{...}" />
             <marker date="1520267599000" expanded="true" signature="842:863" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/Mini jeux projets/SEngager/ControlScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <marker date="1566313375353" expanded="true" signature="6:138" ph="..." />
+            <marker date="1566313375353" expanded="true" signature="182:945" ph="{...}" />
+            <marker date="1566313375353" expanded="true" signature="380:434" ph="{...}" />
+            <marker date="1566313375353" expanded="true" signature="492:672" ph="{...}" />
+            <marker date="1566313375353" expanded="true" signature="624:666" ph="{...}" />
+            <marker date="1566313375353" expanded="true" signature="704:782" ph="{...}" />
+            <marker date="1566313375353" expanded="true" signature="808:943" ph="{...}" />
+            <marker date="1566313375353" expanded="true" signature="846:937" ph="{...}" />
           </folding>
         </state>
       </provider>
