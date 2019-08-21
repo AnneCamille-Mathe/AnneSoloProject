@@ -11,6 +11,7 @@ TagManager:
   - cube1
   - Manager
   - EntreePanda
+  - Enemies
   layers:
   - Default
   - TransparentFX

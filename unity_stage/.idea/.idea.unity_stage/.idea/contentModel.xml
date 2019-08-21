@@ -562,8 +562,11 @@
               <e p="SaveTrigger.cs" t="Include" />
             </e>
             <e p="SEngager" t="Include">
+              <e p="BulletScript.cs" t="Include" />
               <e p="ControlScript.cs" t="Include" />
+              <e p="EnemiesScript.cs" t="Include" />
               <e p="ManagerSEngagerScript.cs" t="Include" />
+              <e p="Weapon.cs" t="Include" />
             </e>
             <e p="Test Boutons" t="Include">
               <e p="ActivationBoutonScript.cs" t="Include" />
