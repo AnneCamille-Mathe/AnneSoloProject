@@ -9,7 +9,7 @@ public class ControlScript : MonoBehaviour
     //Variables
     private float dirX;
 
-    public float moveSpeed = 5f, jumpForce = 300f;
+    public float moveSpeed = 4f, jumpForce = 400f;
 
     private Rigidbody2D rb;
     
