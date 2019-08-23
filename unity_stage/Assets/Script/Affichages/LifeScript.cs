@@ -24,6 +24,7 @@ public class LifeScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        /*
         this.go_panda = GameObject.Find("Cube_Panda");
         if (this.go_panda == null && !this.estTouche1)
         {
@@ -38,6 +39,7 @@ public class LifeScript : MonoBehaviour
             this.Score_Info.text = "Score : " + this.Score;
             this.estTouche2 = true;
         }
+        */
     }
 
     private void OnTriggerEnter(Collider other)

@@ -19,18 +19,22 @@ public class MenuPause : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GameObject.Find("Canvas_Timer/Panel/Button_Pause").GetComponent<PauseButton>().Pressed && this.testBug)
+        if (GameObject.Find("Canvas_Timer") != null)
         {
-            testBug = false;
-            if (GameIsPaused)
+            if (GameObject.Find("Canvas_Timer/Panel/Button_Pause").GetComponent<PauseButton>().Pressed && this.testBug)
             {
-                Resume();
-            }
-            else
-            {
-                Pause();
+                testBug = false;
+                if (GameIsPaused)
+                {
+                    Resume();
+                }
+                else
+                {
+                    Pause();
+                }
             }
         }
+
     }
 
     public void Resume()

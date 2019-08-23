@@ -13,15 +13,21 @@ public class PanelScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        this.test =  GameObject.Find("Canvas_empiler/Panel_combinaison/TextManager")
-            .GetComponent<CombinaisonScript>().trouve;
+        if (GameObject.Find("Canvas_empiler/Panel_combinaison/TextManager") != null)
+        {
+            this.test =  GameObject.Find("Canvas_empiler/Panel_combinaison/TextManager")
+                .GetComponent<CombinaisonScript>().trouve;
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        this.test =  GameObject.Find("Canvas_empiler/Panel_combinaison/TextManager")
-            .GetComponent<CombinaisonScript>().trouve;
+        if (GameObject.Find("Canvas_empiler/Panel_combinaison/TextManager") != null)
+        {
+            this.test =  GameObject.Find("Canvas_empiler/Panel_combinaison/TextManager")
+                .GetComponent<CombinaisonScript>().trouve;
+        }
     }
 
     private void OnTriggerEnter(Collider other)

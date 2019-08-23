@@ -505,6 +505,7 @@
             <e p="Timer.cs" t="Include" />
           </e>
           <e p="Boutons" t="Include">
+            <e p="ButtonDebutScript.cs" t="Include" />
             <e p="FixedButton.cs" t="Include" />
             <e p="FixedTouchField.cs" t="Include" />
             <e p="PauseButton.cs" t="Include" />
