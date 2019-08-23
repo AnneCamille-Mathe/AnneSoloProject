@@ -313,9 +313,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12828}
     - Class: 114
-      Script: {instanceID: 30744}
+      Script: {instanceID: 30758}
     - Class: 114
-      Script: {instanceID: 30752}
+      Script: {instanceID: 30766}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -2241,7 +2241,7 @@ ScriptsOnlyBuild:
     className: TimedObjectDestructor
   - hash:
       serializedVersion: 2
-      Hash: 7b6efd5225d8239d16eff8b4cc700b23
+      Hash: ac682c79cda73cea5fc150cedd2c5500
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ClefScript

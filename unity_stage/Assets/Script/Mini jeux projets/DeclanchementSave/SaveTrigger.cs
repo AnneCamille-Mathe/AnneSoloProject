@@ -20,17 +20,6 @@ public class SaveTrigger : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (!ES2.Exists("debutDeJeu"))
-        {
-        }
-        else
-        {
-            this.CanevasDebut.SetActive(false);
-        }
-
-
-
-        //TODO - Trouver moyen de sauvegarder si début de jeu ou pas
         if (ES2.Load<bool>("jeuLance") == true & ES2.Load<int>("marqueur") == 1)
         {
             if (ES2.Exists("position"))
@@ -61,23 +50,10 @@ public class SaveTrigger : MonoBehaviour
         }
         else
         {
-            Debug.Log("echec");
+            this.CanevasDebut.SetActive(false);
         }
         
         Load();
-        
-        //Si pas début de jeu = pas de panel explicatif à afficher !
-        //this.CanevasDebut.SetActive(false);
-        
-        
-        //Si début de jeu : effacer les variables
-        //effacement ok
-        /*
-        if (ES2.Exists("position"))
-        {
-            ES2.Delete("position");
-        }
-        */
 
     }
 
@@ -97,9 +73,6 @@ public class SaveTrigger : MonoBehaviour
             ES2.Save(this.ZoneSpawn.GetComponent<LifeScript>().Score, "score");
             ES2.Save(this.MainCamera.GetComponent<Timer>().minutes, "minutes");
             ES2.Save(this.MainCamera.GetComponent<Timer>().secondes, "secondes");
-            
-            //ES2.Save(script.minutes, "minutes");
-            //ES2.Save(script.secondes, "secondes");
             ES2.Save(SceneManager.GetActiveScene().name, "savedScene");
             
             //Si pas début de jeu = pas de panel explicatif à afficher !
@@ -115,15 +88,9 @@ public class SaveTrigger : MonoBehaviour
     {    
         player.transform.position = ES2.Load<Vector3>("position");
         this.ZoneSpawn.GetComponent<LifeScript>().Score = ES2.Load<float>("score");
-        this.ZoneSpawn.GetComponent<LifeScript>().Score_Info.text  = "Score : " + this.CanevasDebut.GetComponent<LifeScript>().Score;
         this.MainCamera.GetComponent<Timer>().minutes = ES2.Load<int>("minutes");
         this.MainCamera.GetComponent<Timer>().secondes = ES2.Load<int>("secondes");
-        this.MainCamera.GetComponent<Timer>().timerText.text = this.MainCamera.GetComponent<Timer>().minutes + ":" +
-                                                               this.MainCamera.GetComponent<Timer>().secondes;
         ManagerScript script = managerScript.GetComponent<ManagerScript>();
-        
-        //script.minutes = ES2.Load<int>("minutes");
-        //script.secondes = ES2.Load<int>("secondes");
         
         //Si pas début de jeu = pas de panel explicatif à afficher !
         this.debutDeJeu = ES2.Load<bool>("debutDeJeu");

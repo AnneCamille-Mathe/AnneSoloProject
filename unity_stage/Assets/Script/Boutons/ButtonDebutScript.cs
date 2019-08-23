@@ -17,6 +17,8 @@ public class ButtonDebutScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        this.CanevasTimer.SetActive(false);
+        this.CanevasScore.SetActive(false);
         this.count = 1;
     }
 
