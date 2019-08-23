@@ -7,7 +7,7 @@ public class ManagerScript : MonoBehaviour
     public  float score;
     public int minutes;
     public int secondes;
-    
+
     // Start is called before the first frame update
     void Start()
     {
