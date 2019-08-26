@@ -24,6 +24,5 @@ public class GoBackScript : MonoBehaviour
     {
         levelToLoad = ES2.Load<string>("savedScene");
         SceneManager.LoadScene(levelToLoad);
-        
     }
 }

@@ -72,7 +72,7 @@ public class SaveTrigger : MonoBehaviour
             ManagerScript script = managerScript.GetComponent<ManagerScript>();
             ES2.Save(this.ZoneSpawn.GetComponent<LifeScript>().Score, "score");
             
-            //Calcul du temps
+            //TODO - Calcul du temps
             ES2.Save(this.MainCamera.GetComponent<Timer>().minutes, "minutes");
             ES2.Save(this.MainCamera.GetComponent<Timer>().secondes, "secondes");
             //float temps = ES2.Load<int>("minutes") + ES2.Load<int>("secondes");

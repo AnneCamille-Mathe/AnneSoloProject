@@ -572,6 +572,9 @@
             <e p="Test Boutons" t="Include">
               <e p="ActivationBoutonScript.cs" t="Include" />
             </e>
+            <e p="Valorrissimo" t="Include">
+              <e p="BoutonJeuValorissimo.cs" t="Include" />
+            </e>
           </e>
           <e p="Panda" t="Include">
             <e p="GoblinScript.cs" t="Include" />
@@ -839,6 +842,7 @@
             </e>
           </e>
         </e>
+        <e p="testButtonScript.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
