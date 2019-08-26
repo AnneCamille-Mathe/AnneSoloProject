@@ -113,6 +113,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 102
       Script: {instanceID: 0}
     - Class: 104
@@ -313,9 +317,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12828}
     - Class: 114
-      Script: {instanceID: 30758}
+      Script: {instanceID: 30714}
     - Class: 114
-      Script: {instanceID: 30766}
+      Script: {instanceID: 30722}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -505,6 +509,10 @@ ScriptsOnlyBuild:
     - Class: 48
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -1209,7 +1217,7 @@ ScriptsOnlyBuild:
     className: AutoCam
   - hash:
       serializedVersion: 2
-      Hash: 661cbd063b876b8c1502a3e5fddef12d
+      Hash: 968376e17afbcfaf3fcf77aa2fac98ab
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Timer
@@ -1257,7 +1265,7 @@ ScriptsOnlyBuild:
     className: ShootScript
   - hash:
       serializedVersion: 2
-      Hash: 9ccac2c80c5391281073a8cdc6cd7dc9
+      Hash: c70992d3d499fd55c8ceb22ede187540
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ProjetSEngager
@@ -1371,7 +1379,7 @@ ScriptsOnlyBuild:
     className: BezierShape
   - hash:
       serializedVersion: 2
-      Hash: 98d2f0a40667753d59b916aa06eb5a2e
+      Hash: 2a13fdc227e012125686abba17c3639b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SaveTrigger

@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 public class Timer : MonoBehaviour
 {
     //Déclaration de variables
-    private float temps = 400;
+    public float temps = 400;
     public Text timerText;
     public int minutes;
     public int secondes;
