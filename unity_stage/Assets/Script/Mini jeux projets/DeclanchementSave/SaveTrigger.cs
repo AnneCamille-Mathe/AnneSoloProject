@@ -12,9 +12,11 @@ public class SaveTrigger : MonoBehaviour
     public GameObject player;
     public GameObject boutonJouer;
     public GameObject CanevasDebut;
+    public GameObject CanevasChoix;
     public GameObject ZoneSpawn;
     public GameObject MainCamera;
     public int marqueur = 1;
+    
     
     // Start is called before the first frame update
     void Start()
@@ -46,11 +48,28 @@ public class SaveTrigger : MonoBehaviour
             {
                 ES2.Delete("secondes");
             }
+
+            if (ES2.Exists("Hermes"))
+            {
+                ES2.Delete("Hermes");
+            }
+            
+            if (ES2.Exists("Valorissimo"))
+            {
+                ES2.Delete("Valorissimo");
+            }
+
+            if (ES2.Exists("SEngager"))
+            {
+                ES2.Delete("SEngager");
+            }
+            
             
         }
         else
         {
             this.CanevasDebut.SetActive(false);
+            this.CanevasChoix.SetActive(false);
         }
         
         Load();
@@ -60,14 +79,17 @@ public class SaveTrigger : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(ES2.Load<int>("marqueur"));
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
         {
-            this.boutonJouer.SetActive(true);
+            if (ES2.Exists("SEngager"))
+            {
+                this.boutonJouer.SetActive(true);
+            }
+            
             ES2.Save(player.transform.position, "position");
             ManagerScript script = managerScript.GetComponent<ManagerScript>();
             ES2.Save(this.ZoneSpawn.GetComponent<LifeScript>().Score, "score");

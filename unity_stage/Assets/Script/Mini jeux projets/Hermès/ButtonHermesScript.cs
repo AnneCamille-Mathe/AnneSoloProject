@@ -19,6 +19,6 @@ public class ButtonHermesScript : MonoBehaviour
     
     public void LoadLevel()
     {
-        SceneManager.LoadScene("MiniJeuValorissimo");
+        SceneManager.LoadScene("MiniJeuHermes");
     }
 }
