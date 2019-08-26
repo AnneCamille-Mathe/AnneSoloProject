@@ -562,6 +562,9 @@
             <e p="DeclanchementSave" t="Include">
               <e p="SaveTrigger.cs" t="Include" />
             </e>
+            <e p="Hermès" t="Include">
+              <e p="ButtonHermesScript.cs" t="Include" />
+            </e>
             <e p="SEngager" t="Include">
               <e p="BulletScript.cs" t="Include" />
               <e p="ControlScript.cs" t="Include" />
