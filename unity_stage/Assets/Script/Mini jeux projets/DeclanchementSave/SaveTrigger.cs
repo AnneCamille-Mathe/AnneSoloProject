@@ -8,7 +8,6 @@ using UnityEngine.SceneManagement;
 public class SaveTrigger : MonoBehaviour
 {
     //Variables
-    public  GameObject managerScript;
     public GameObject player;
     public GameObject boutonJouer;
     public GameObject CanevasDebut;
@@ -21,7 +20,7 @@ public class SaveTrigger : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //TODO - MAJ des variables 
+        //TODO - MAJ des variables  + essayer de le mettre dans le manager
         if (ES2.Load<bool>("jeuLance") == true & ES2.Load<int>("marqueur") == 1)
         {
             if (ES2.Exists("position"))
@@ -91,7 +90,6 @@ public class SaveTrigger : MonoBehaviour
             }
             
             ES2.Save(player.transform.position, "position");
-            ManagerScript script = managerScript.GetComponent<ManagerScript>();
             ES2.Save(this.ZoneSpawn.GetComponent<LifeScript>().Score, "score");
             
             //TODO - Calcul du temps
@@ -117,7 +115,6 @@ public class SaveTrigger : MonoBehaviour
         this.MainCamera.GetComponent<Timer>().minutes = ES2.Load<int>("minutes");
         this.MainCamera.GetComponent<Timer>().secondes = ES2.Load<int>("secondes");
         //this.MainCamera.GetComponent<Timer>().temps = ES2.Load<int>("temps");
-        ManagerScript script = managerScript.GetComponent<ManagerScript>();
     }
 
     private void OnTriggerExit(Collider other)
