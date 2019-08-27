@@ -570,6 +570,7 @@
             </e>
             <e p="SEngager" t="Include">
               <e p="BulletScript.cs" t="Include" />
+              <e p="CanevasVictoireSEngager.cs" t="Include" />
               <e p="ControlScript.cs" t="Include" />
               <e p="EnemiesScript.cs" t="Include" />
               <e p="ManagerSEngagerScript.cs" t="Include" />

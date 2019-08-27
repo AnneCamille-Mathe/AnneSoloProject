@@ -8,7 +8,8 @@ public class EnemiesScript : MonoBehaviour
 {
     //Variables
     //public Sprite death;
-    
+    public GameObject enemie;
+        
     // Start is called before the first frame update
     void Start()
     {
@@ -21,4 +22,11 @@ public class EnemiesScript : MonoBehaviour
 
     }
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Bullet")
+        {
+            Destroy(enemie);
+        }
+    }
 }
