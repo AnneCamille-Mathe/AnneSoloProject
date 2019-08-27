@@ -8,7 +8,6 @@ using UnityEngine.SceneManagement;
 public class SaveTriggerHermes : MonoBehaviour
 {
     //Variables
-    public  GameObject managerScript;
     public GameObject player;
     public GameObject boutonJouer;
     public GameObject CanevasDebut;
@@ -57,8 +56,9 @@ public class SaveTriggerHermes : MonoBehaviour
         {
             this.CanevasDebut.SetActive(false);
         }
-        */
+        
         this.CanevasDebut.SetActive(false);
+        */
         Load();
 
     }
@@ -79,7 +79,6 @@ public class SaveTriggerHermes : MonoBehaviour
             
             
             ES2.Save(player.transform.position, "position");
-            ManagerScript script = managerScript.GetComponent<ManagerScript>();
             ES2.Save(this.ZoneSpawn.GetComponent<LifeScript>().Score, "score");
             
             //TODO - Calcul du temps
@@ -105,7 +104,6 @@ public class SaveTriggerHermes : MonoBehaviour
         this.MainCamera.GetComponent<Timer>().minutes = ES2.Load<int>("minutes");
         this.MainCamera.GetComponent<Timer>().secondes = ES2.Load<int>("secondes");
         //this.MainCamera.GetComponent<Timer>().temps = ES2.Load<int>("temps");
-        ManagerScript script = managerScript.GetComponent<ManagerScript>();
     }
 
     private void OnTriggerExit(Collider other)
