@@ -7,10 +7,10 @@ public class CanevasVictoireSEngager : MonoBehaviour
     //Variables
     public GameObject ImageScript;
     public GameObject ImageSite;
-
-    public GameObject TexteVictoire;
+    public GameObject PanelText;
     public bool once = true;
-    
+    public GameObject buttonLoad;
+    public GameObject CanevasControl;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,12 +29,14 @@ public class CanevasVictoireSEngager : MonoBehaviour
 
     IEnumerator affichage()
     {
+        CanevasControl.SetActive(false);
+        ImageScript.SetActive(true);
         yield return new WaitForSeconds(0.5f);
         ImageScript.SetActive(false);
         ImageSite.SetActive(true);
         yield return new  WaitForSeconds(1f);
         ImageSite.SetActive(false);
-        TexteVictoire.SetActive(true);
-        yield return  new WaitForSeconds(1f);
+        PanelText.SetActive(true);
+        buttonLoad.SetActive(true);
     }
 }
