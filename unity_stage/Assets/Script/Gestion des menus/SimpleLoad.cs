@@ -24,11 +24,6 @@ public class SimpleLoad : MonoBehaviour
 
     public void Load()
     {    
-        player.transform.position = ES2.Load<Vector3>("position");    
-        ManagerScript script = managerScript.GetComponent<ManagerScript>();
-        script.score = ES2.Load<float>("score");
-        script.minutes = ES2.Load<int>("minutes");
-        script.secondes = ES2.Load<int>("secondes");
-
+        player.transform.position = ES2.Load<Vector3>("position");
     }
 }
