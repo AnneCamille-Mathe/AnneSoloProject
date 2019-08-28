@@ -565,6 +565,7 @@
               <e p="SaveTrigger.cs" t="Include" />
             </e>
             <e p="Hermès" t="Include">
+              <e p="ButonContinueHermes.cs" t="Include" />
               <e p="ButtonHermesScript.cs" t="Include" />
               <e p="SaveTriggerHermes.cs" t="Include" />
             </e>
@@ -853,6 +854,7 @@
           </e>
         </e>
         <e p="testButtonScript.cs" t="Include" />
+        <e p="transparentTest.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
