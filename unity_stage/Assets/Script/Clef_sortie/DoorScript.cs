@@ -31,7 +31,7 @@ public class DoorScript : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         this.anim.enabled = true;
-        GameObject.Find("Cube_Panda").GetComponent<MovePandaScript>().debut = true;
+        //GameObject.Find("Cube_Panda").GetComponent<MovePandaScript>().debut = true;
     }
 
     void pauseAnimationEvent()

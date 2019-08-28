@@ -11,7 +11,7 @@ public class ManagerScript : MonoBehaviour
 
     // Start is called before the first frame update
     void Start()
-    {
+    {/*
         if (ES2.Load<bool>("jeuLance") == true & ES2.Load<int>("marqueur") == 1)
         {
             if (ES2.Exists("position"))
@@ -61,7 +61,7 @@ public class ManagerScript : MonoBehaviour
         {
             this.CanevasDebut.SetActive(false);
             this.CanevasChoix.SetActive(false);
-        }
+        }*/
     }
 
     // Update is called once per frame

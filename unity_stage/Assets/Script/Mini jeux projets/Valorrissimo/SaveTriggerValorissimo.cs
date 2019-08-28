@@ -12,7 +12,7 @@ public class SaveTriggerValorissimo : MonoBehaviour
     public GameObject boutonJouer;
     public GameObject ZoneSpawn;
     public GameObject MainCamera;
-    public int marqueur = 1;
+    public int marqueur = 2;
     
     // Start is called before the first frame update
     void Start()
