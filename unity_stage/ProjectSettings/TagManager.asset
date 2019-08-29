@@ -12,6 +12,7 @@ TagManager:
   - Manager
   - EntreePanda
   - Enemies
+  - horse
   layers:
   - Default
   - TransparentFX

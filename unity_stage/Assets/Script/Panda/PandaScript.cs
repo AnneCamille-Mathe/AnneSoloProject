@@ -19,6 +19,7 @@ public class PandaScript : MonoBehaviour
 
     private void OnMouseDown()
     {
-        this.gameObject.SetActive(false);
+        //this.gameObject.SetActive(false);
+        Destroy(gameObject);
     }
 }

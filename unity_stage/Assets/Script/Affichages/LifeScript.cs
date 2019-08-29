@@ -10,7 +10,7 @@ public class LifeScript : MonoBehaviour
     //Variables
     public float Score = 0;
     public Text Score_Info;
-    public GameObject go_panda;
+    //public GameObject go_panda;
     public bool estTouche1, estTouche2;
 
     // Start is called before the first frame update

@@ -1,10 +1,12 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using System.Collections;
+using UnityEngine.InputSystem;
 
 public class Cube : MonoBehaviour {
 
     [SerializeField]
-    float _horizontallimit = 2.5f, _verticallimit = 2.5f, dragSpeed = 2f;
+    float _horizontallimit = 2.5f, _verticallimit = 2.5f, dragSpeed = 0.1f;
  
     Transform cachedTransform;
     Vector3 startingPos;
@@ -20,7 +22,7 @@ public class Cube : MonoBehaviour {
     // Update is called once per frame
     void Update () 
     {
-        if (Input.touchCount > 0 &&  GameObject.Find("Cube1").GetComponent<DetectionScript>().OnceEnter)
+        if (Input.touchCount > 0)
         {
             Vector2 deltaPosition = Input.GetTouch(0).deltaPosition;
             switch(Input.GetTouch(0).phase)
@@ -29,6 +31,7 @@ public class Cube : MonoBehaviour {
                     break;
     
                 case TouchPhase.Moved:
+                    
                     DragObj(deltaPosition);
                     break;
      
@@ -46,4 +49,5 @@ public class Cube : MonoBehaviour {
                 startingPos.y - _verticallimit, startingPos.y + _verticallimit),
             cachedTransform.position.z);
     }
+
 }

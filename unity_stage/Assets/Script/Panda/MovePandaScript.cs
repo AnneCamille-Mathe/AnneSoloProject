@@ -7,7 +7,7 @@ public class MovePandaScript : MonoBehaviour
 {
     //Variables
     private RaycastHit Hit;
-    public bool debut = false;
+    //public bool debut = false;
 
     // Start is called before the first frame update
     void Start()
@@ -18,14 +18,14 @@ public class MovePandaScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (debut)
-        {
-            transform.Translate(Vector3.forward * 1 * Time.deltaTime);
-            if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out Hit, 2))
+        //if (debut)
+        //{
+            transform.Translate(Vector3.left * 1 * Time.deltaTime);
+            if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.left), out Hit, 2))
             {
-                transform.Rotate(Vector3.up * Random.Range(150, 200));
-                Debug.Log(Hit.collider.name);
+                transform.Rotate(Vector3.right * Random.Range(150, 200));
             }
-        }
+        //}
     }
+    
 }
