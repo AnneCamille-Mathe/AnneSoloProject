@@ -26,7 +26,7 @@ public class ButtonChoisirM3 : MonoBehaviour
     void Update()
     {
         colloc = GameObject.Find("Manager").GetComponent<ManagerValorissimoScript>().tourCooloc;
-        famille = GameObject.Find("Manager").GetComponent<ManagerValorissimoScript>().tourSeul;
+        famille = GameObject.Find("Manager").GetComponent<ManagerValorissimoScript>().tourFamille;
         seul = GameObject.Find("Manager").GetComponent<ManagerValorissimoScript>().tourSeul;
         
     }
@@ -40,6 +40,18 @@ public class ButtonChoisirM3 : MonoBehaviour
             PanelCollocation.SetActive(true);
             GameObject.Find("CanvasInfosPerso/PanelCollocation/Text").GetComponent<Text>().text = "C'est parfait, merci beaucoup !";
             PanelMaison3.SetActive(false);
+        }
+        
+        //TODO - Faire le cas ou colloc && famille && !seul : afficher perso correspondant + message pas content
+        if (colloc && famille && !seul)
+        {
+            
+        }
+        
+        //TODO - Faire le cas oy colloc && famille && seul : afficher perso correspondant + message pas content
+        if (colloc && famille && seul)
+        {
+            
         }
     }
 }

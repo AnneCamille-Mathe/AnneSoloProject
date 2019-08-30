@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ManagerValorissimoScript : MonoBehaviour
 {
@@ -53,6 +54,60 @@ public class ManagerValorissimoScript : MonoBehaviour
         {
             tourSeul = true;
         }
+
+        if (GameObject.Find("CanvasInfosPerso/PanelCollocation/Text") != null && tourCooloc && !tourFamille && !tourSeul)
+        {
+            if (GameObject.Find("CanvasInfosPerso/PanelCollocation/Text").GetComponent<Text>().text ==
+                "C'est parfait, merci beaucoup !")
+            {
+                StartCoroutine(WaitFamille());
+            }
+        }
         
+        if (GameObject.Find("CanvasInfosPerso/PanelFamille/Text") != null && tourCooloc && tourFamille && !tourSeul)
+        {
+            if (GameObject.Find("CanvasInfosPerso/PanelFamille/Text").GetComponent<Text>().text ==
+                "C'est parfait, ma famille et moi allons être très bien ici, merci beaucoup !")
+            {
+                StartCoroutine(WaitSeul());
+            }
+        }
+        
+        if (GameObject.Find("CanvasInfosPerso/PanelSeul/Text") != null && tourCooloc && tourFamille && tourSeul)
+        {
+            if (GameObject.Find("CanvasInfosPerso/PanelSeul/Text").GetComponent<Text>().text ==
+                "C'est parfait, je vais me plaire ici, merci beaucoup !")
+            {
+                StartCoroutine(WaitVictoire());
+            }
+        }
+    }
+
+    IEnumerator WaitFamille()
+    {
+        yield return new WaitForSeconds(2f);
+        PanelColoc.SetActive(false);
+        persoColoc.SetActive(false);
+        yield return new WaitForSeconds(0.5f);
+        persoFamille.SetActive(true);
+        PanelFamille.SetActive(true);
+    }
+
+    IEnumerator WaitSeul()
+    {
+        yield return new WaitForSeconds(2f);
+        PanelFamille.SetActive(false);
+        persoFamille.SetActive(false);
+        yield return new WaitForSeconds(0.5f);
+        persoSeul.SetActive(true);
+        PanelSeul.SetActive(true);
+    }
+
+    IEnumerator WaitVictoire()
+    {
+        yield return new WaitForSeconds(2f);
+        PanelSeul.SetActive(false);
+        persoSeul.SetActive(false);
+        yield return new WaitForSeconds(0.5f);
     }
 }
