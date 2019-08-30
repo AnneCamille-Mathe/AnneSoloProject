@@ -31,6 +31,7 @@ public class ManagerValorissimoScript : MonoBehaviour
     }
 
     // Update is called once per frame
+    
     void Update()
     {
         if (CanevasDebut.activeSelf == false & count == 1)

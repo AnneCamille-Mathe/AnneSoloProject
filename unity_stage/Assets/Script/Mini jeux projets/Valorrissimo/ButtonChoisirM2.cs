@@ -10,10 +10,19 @@ public class ButtonChoisirM2 : MonoBehaviour
     public GameObject PanelSeul;
     public GameObject Button;
     public GameObject PanelMaison2;
-    
+
     private bool colloc;
     private bool famille;
     private bool seul;
+    
+    public GameObject persoFamille;
+    public GameObject PanelFamille;
+    public GameObject ButtonFamille;
+    public GameObject persoColloc;
+    public GameObject PanelColloc;
+    public GameObject ButtonColloc;
+
+    public GameObject CanvasFinDeJeu;
     
     // Start is called before the first frame update
     void Start()
@@ -37,19 +46,57 @@ public class ButtonChoisirM2 : MonoBehaviour
             persoSeul.SetActive(true);
             PanelSeul.SetActive(true);
             GameObject.Find("CanvasInfosPerso/PanelSeul/Text").GetComponent<Text>().text = "C'est parfait, je vais me plaire ici, merci beaucoup !";
+            GameObject.Find("CanvasSomme/Panel/Text").GetComponent<Text>().text = "Somme : " + 1150000;
+            StartCoroutine(FinDeJeu());
             PanelMaison2.SetActive(false);
         }
         
-        //TODO - Faire le cas ou colloc && !famille && !seul : afficher perso correspondant + message pas content
         if (colloc && !famille && !seul)
         {
-            
+            StartCoroutine(Colloc());
         }
         
-        //TODO - Faire le cas oy colloc && famille && seul : afficher perso correspondant + message pas content
-        if (colloc && famille && seul)
+        if (colloc && famille && !seul)
         {
-            
+            StartCoroutine(Famille());
         }
+    }
+    
+    IEnumerator Colloc()
+    {
+        PanelMaison2.SetActive(false);
+        persoColloc.SetActive(true);
+        PanelColloc.SetActive(true);
+        ButtonColloc.SetActive(false);
+        GameObject.Find("CanvasInfosPerso/PanelCollocation/Text").GetComponent<Text>().text =
+            "Mais ce n'est pas du tout ce que je recherche !";
+        yield return  new WaitForSeconds(0.5f);
+        
+        //TODO - Suppresion perso : Manager si texte si dessus
+        persoColloc.SetActive(false);
+        PanelColloc.SetActive(false);
+    }
+
+
+    IEnumerator Famille()
+    {
+        PanelMaison2.SetActive(false);
+        persoFamille.SetActive(true);
+        PanelFamille.SetActive(true);
+        ButtonFamille.SetActive(false);
+        GameObject.Find("CanvasInfosPerso/PanelFamille/Text").GetComponent<Text>().text =
+            "Mais ce n'est pas du tout ce que je recherche !";
+        yield return new WaitForSeconds(0.5f);
+            
+        //TODO - Suppresion perso : Manager si texte si dessus
+        persoFamille.SetActive(false);
+        PanelFamille.SetActive(false);
+    }
+
+    IEnumerator FinDeJeu()
+    {
+        Debug.Log("bien rentré");
+        CanvasFinDeJeu.SetActive(true);
+        yield return new WaitForSeconds(0.5f);
     }
 }

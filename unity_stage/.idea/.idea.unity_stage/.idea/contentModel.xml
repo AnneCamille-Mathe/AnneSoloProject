@@ -592,6 +592,7 @@
               <e p="ButtonChoisirM3.cs" t="Include" />
               <e p="ManagerValorissimoScript.cs" t="Include" />
               <e p="SaveTriggerValorissimo.cs" t="Include" />
+              <e p="ScoreScriptValorissimo.cs" t="Include" />
               <e p="ToggleValorissimo.cs" t="Include" />
               <e p="TouchMaisonColloc.cs" t="Include" />
               <e p="TouchMaisonFamille.cs" t="Include" />
