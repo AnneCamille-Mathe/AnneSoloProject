@@ -38,7 +38,7 @@ public class BoutonContinueValorissimo : MonoBehaviour
 
     IEnumerator change()
     {
-        GameObject.Find("CanvasDebut/Text").GetComponent<Text>().text = "Vendez les maisons, \n [à compléter]";
+        GameObject.Find("CanvasDebut/Text").GetComponent<Text>().text = "Vendez les maisons aux bonnes personnes, et obtenez la somme de 1 150 000 euros pour valider votre mission";
         yield return new WaitForSeconds(1);
     }
 
