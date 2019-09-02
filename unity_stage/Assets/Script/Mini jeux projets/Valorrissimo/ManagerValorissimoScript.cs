@@ -73,13 +73,38 @@ public class ManagerValorissimoScript : MonoBehaviour
                 StartCoroutine(WaitSeul());
             }
         }
-        
+
         if (GameObject.Find("CanvasInfosPerso/PanelSeul/Text") != null && tourCooloc && tourFamille && tourSeul)
         {
             if (GameObject.Find("CanvasInfosPerso/PanelSeul/Text").GetComponent<Text>().text ==
                 "C'est parfait, je vais me plaire ici, merci beaucoup !")
             {
                 StartCoroutine(WaitVictoire());
+            }
+        }
+        
+        //TODO - si message : effacer perso et message
+        if (GameObject.Find("CanvasInfosPerso/PanelCollocation/Text") != null)
+        {
+            if (GameObject.Find("CanvasInfosPerso/PanelCollocation/Text").GetComponent<Text>().text ==  "Mais ce n'est pas du tout ce que je recherche !")
+            {
+                StartCoroutine(DesepearColloc());
+            }
+        }
+
+        if (GameObject.Find("CanvasInfosPerso/PanelFamille/Text") != null)
+        {
+            if (GameObject.Find("CanvasInfosPerso/PanelFamille/Text").GetComponent<Text>().text ==  "Mais ce n'est pas du tout ce que je recherche !")
+            {
+                StartCoroutine(DesepearFamille());
+            }
+        }
+
+        if (GameObject.Find("CanvasInfosPerso/PanelSeul/Text") != null)
+        {
+            if (GameObject.Find("CanvasInfosPerso/PanelSeul/Text").GetComponent<Text>().text ==  "Mais ce n'est pas du tout ce que je recherche !")
+            {
+                StartCoroutine(DesepearSeul());
             }
         }
     }
@@ -109,6 +134,30 @@ public class ManagerValorissimoScript : MonoBehaviour
         yield return new WaitForSeconds(2f);
         PanelSeul.SetActive(false);
         persoSeul.SetActive(false);
+        yield return new WaitForSeconds(0.5f);
+    }
+
+    IEnumerator DesepearFamille()
+    {
+        yield return new WaitForSeconds(0.5f);
+        persoFamille.SetActive(false);
+        PanelFamille.SetActive(false);
+        yield return new WaitForSeconds(0.5f);
+    }
+
+    IEnumerator DesepearSeul()
+    {
+        yield return new WaitForSeconds(0.5f);
+        persoSeul.SetActive(false);
+        PanelSeul.SetActive(false);
+        yield return new WaitForSeconds(0.5f);
+    }
+
+    IEnumerator DesepearColloc()
+    {
+        yield return new WaitForSeconds(0.5f);
+        persoColoc.SetActive(false);
+        PanelColoc.SetActive(false);
         yield return new WaitForSeconds(0.5f);
     }
 }

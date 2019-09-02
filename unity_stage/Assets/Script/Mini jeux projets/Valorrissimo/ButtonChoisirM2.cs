@@ -67,14 +67,10 @@ public class ButtonChoisirM2 : MonoBehaviour
         PanelMaison2.SetActive(false);
         persoColloc.SetActive(true);
         PanelColloc.SetActive(true);
-        ButtonColloc.SetActive(false);
         GameObject.Find("CanvasInfosPerso/PanelCollocation/Text").GetComponent<Text>().text =
             "Mais ce n'est pas du tout ce que je recherche !";
-        yield return  new WaitForSeconds(0.5f);
-        
-        //TODO - Suppresion perso : Manager si texte si dessus
-        persoColloc.SetActive(false);
-        PanelColloc.SetActive(false);
+        yield return  new WaitForSeconds(1f);
+        ButtonColloc.SetActive(false);
     }
 
 
@@ -83,19 +79,14 @@ public class ButtonChoisirM2 : MonoBehaviour
         PanelMaison2.SetActive(false);
         persoFamille.SetActive(true);
         PanelFamille.SetActive(true);
-        ButtonFamille.SetActive(false);
         GameObject.Find("CanvasInfosPerso/PanelFamille/Text").GetComponent<Text>().text =
             "Mais ce n'est pas du tout ce que je recherche !";
-        yield return new WaitForSeconds(0.5f);
-            
-        //TODO - Suppresion perso : Manager si texte si dessus
-        persoFamille.SetActive(false);
-        PanelFamille.SetActive(false);
+        yield return new WaitForSeconds(1f);
+        ButtonFamille.SetActive(false);
     }
 
     IEnumerator FinDeJeu()
     {
-        Debug.Log("bien rentré");
         CanvasFinDeJeu.SetActive(true);
         yield return new WaitForSeconds(0.5f);
     }

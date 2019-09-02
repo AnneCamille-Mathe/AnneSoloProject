@@ -66,14 +66,10 @@ public class ButtonChoisirM3 : MonoBehaviour
         PanelMaison3.SetActive(false);
         persoSeul.SetActive(true);
         PanelSeul.SetActive(true);
-        ButtonSeul.SetActive(false);
         GameObject.Find("CanvasInfosPerso/PanelSeul/Text").GetComponent<Text>().text =
             "Mais ce n'est pas du tout ce que je recherche !";
-        yield return  new WaitForSeconds(0.5f);
-        
-        //TODO - Suppresion perso : Manager si texte si dessus
-        persoSeul.SetActive(false);
-        PanelSeul.SetActive(false);
+        yield return  new WaitForSeconds(1f);
+        ButtonSeul.SetActive(false);
     }
     
     IEnumerator Famille()
@@ -81,14 +77,10 @@ public class ButtonChoisirM3 : MonoBehaviour
         PanelMaison3.SetActive(false);
         persoFamille.SetActive(true);
         PanelFamille.SetActive(true);
-        ButtonFamille.SetActive(false);
         GameObject.Find("CanvasInfosPerso/PanelFamille/Text").GetComponent<Text>().text =
             "Mais ce n'est pas du tout ce que je recherche !";
-        yield return  new WaitForSeconds(0.5f);
-        
-        //TODO - Suppresion perso : Manager si texte si dessus
-        persoFamille.SetActive(false);
-        PanelFamille.SetActive(false);
+        yield return  new WaitForSeconds(1f);
+        ButtonFamille.SetActive(false);
     }
     
     
